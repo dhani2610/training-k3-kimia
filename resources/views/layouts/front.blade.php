@@ -3,6 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="OLeTEMVu1UAOVP75-riTcUXVIAZT-mNSeySFlY4uySg" />
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G8BCDQ8CV8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-G8BCDQ8CV8');
+    </script>
+
     <title>@yield('title', 'Training K3 Kimia Industri (LSP Kimia Industri BNSP) | Sertifikasi LSP Kimia Industri & BNSP')</title>
     <meta name="description" content="@yield('meta_description', 'Pusat pembinaan, bimbingan teknis, dan sertifikasi resmi 32 Skema K3 Kimia Industri & Laboratorium Analitik standar BNSP & LSP Kimia Industri dan BNSP.')">
     <link rel="preconnect" href="https://fonts.googleapis.com">
