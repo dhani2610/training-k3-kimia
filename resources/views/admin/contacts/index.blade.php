@@ -48,7 +48,7 @@
                                 @if($msg->status === 'unread')
                                     <span style="font-size: 0.7rem; font-weight: 700; background: #fee2e2; color: #dc2626; padding: 2px 8px; border-radius: 10px;">Baru</span>
                                 @elseif($msg->status === 'replied')
-                                    <span style="font-size: 0.7rem; font-weight: 700; background: #ecfdf5; color: #059669; padding: 2px 8px; border-radius: 10px;">Dibalas</span>
+                                    <span style="font-size: 0.7rem; font-weight: 700; background: #f0f9ff; color: #0369a1; padding: 2px 8px; border-radius: 10px;">Dibalas</span>
                                 @else
                                     <span style="font-size: 0.7rem; font-weight: 700; background: #f1f5f9; color: #64748b; padding: 2px 8px; border-radius: 10px;">Dibaca</span>
                                 @endif

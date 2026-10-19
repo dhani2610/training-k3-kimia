@@ -37,7 +37,7 @@
                 <!-- 4 HOTLINE DETAIL NUMBERS -->
                 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; margin-bottom: 24px;">
                     <h4 style="font-size: 0.95rem; font-weight: 700; color: #0f172a; margin-bottom: 14px; display: flex; align-items: center; gap: 8px;">
-                        <i class="bi bi-telephone-inbound-fill" style="color: #10b981;"></i> 2. Empat (4) Hotline WhatsApp Resmi (Tampil di Halaman Detail Program & Artikel)
+                        <i class="bi bi-telephone-inbound-fill" style="color: #0284c7;"></i> 2. Empat (4) Hotline WhatsApp Resmi (Tampil di Halaman Detail Program & Artikel)
                     </h4>
 
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
@@ -83,7 +83,7 @@
                     <label class="form-label">Pratinjau Pesan yang Diterima di WhatsApp:</label>
                     <div style="background: #e5ddd5; border-radius: 12px; padding: 20px; max-width: 540px;">
                         <div style="background: #ffffff; border-radius: 8px 8px 8px 0; padding: 12px 16px; font-size: 0.86rem; color: #111827; box-shadow: 0 1px 2px rgba(0,0,0,0.1); position: relative;" id="livePreview">
-                            Halo Admin Training K3 Kimia, saya ingin informasi dan konsultasi pendaftaran pelatihan K3 K3 Kimia Industri & Laboratorium BNSP untuk wilayah <strong>Kota Surabaya</strong>. Mohon info jadwal terbaru dan persyaratannya.
+                            Halo Admin Training K3 Kimia, saya ingin informasi dan konsultasi pendaftaran pelatihan K3 Kimia Industri & Laboratorium BNSP untuk wilayah <strong>Kota Surabaya</strong>. Mohon info jadwal terbaru dan persyaratannya.
                             <div style="text-align: right; font-size: 0.65rem; color: #9ca3af; margin-top: 6px;">{{ date('H:i') }} <i class="bi bi-check2-all" style="color: #3b82f6;"></i></div>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
                         <i class="bi bi-save2"></i> Simpan Pengaturan WhatsApp
                     </button>
 
-                    <a href="https://api.whatsapp.com/send?phone={{ $whatsappNumber }}&text={{ urlencode(str_replace(['{region}', '{program}'], ['DKI Jakarta', 'TKBT Tingkat 1'], $whatsappTemplate)) }}" target="_blank" class="btn-admin-primary" style="background: #0369a1; font-size: 0.92rem; padding: 11px 20px;">
+                    <a href="https://api.whatsapp.com/send?phone={{ $whatsappNumber }}&text={{ urlencode(str_replace(['{region}', '{program}'], ['DKI Jakarta', 'K3 Kimia Industri'], $whatsappTemplate)) }}" target="_blank" class="btn-admin-primary" style="background: #0369a1; font-size: 0.92rem; padding: 11px 20px;">
                         <i class="bi bi-whatsapp"></i> Uji Coba Chat WA Utama
                     </a>
                 </div>

@@ -9,7 +9,7 @@
     <section class="hero-section" style="padding: 46px 0 42px; text-align: left;">
         <div class="container">
             <!-- Breadcrumb -->
-            <div style="font-size: 0.82rem; color: #a7f3d0; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+            <div style="font-size: 0.82rem; color: #bae6fd; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
                 <a href="{{ route('home') }}" style="color: #cbd5e1;"><i class="bi bi-house-door"></i> Beranda</a>
                 <span>/</span>
                 <a href="{{ route('wilayah.provinsi', $province['slug']) }}" style="color: #cbd5e1;">Provinsi {{ $province['name'] }}</a>
@@ -33,7 +33,7 @@
                 <span class="hero-badge" style="margin-bottom: 0;">
                     <i class="bi bi-tag-fill"></i> {{ $program['level_name'] ?? 'K3 Ruang Terbatas' }}
                 </span>
-                <span class="hero-badge" style="margin-bottom: 0; background: rgba(52, 211, 153, 0.2); border-color: #34d399; color: #a7f3d0;">
+                <span class="hero-badge" style="margin-bottom: 0; background: rgba(52, 211, 153, 0.2); border-color: #38bdf8; color: #bae6fd;">
                     <i class="bi bi-geo-alt-fill"></i> {{ $regionName }}
                 </span>
                 <span class="hero-badge" style="margin-bottom: 0; background: rgba(245, 158, 11, 0.2); border-color: #f59e0b; color: #fde68a;">
@@ -46,13 +46,13 @@
             </h1>
 
             <div style="display: flex; align-items: center; gap: 16px; font-size: 0.82rem; color: #cbd5e1; flex-wrap: wrap;">
-                <span><i class="bi bi-person-fill" style="color: #34d399;"></i> {{ $article->author ?? 'Instruktur BNSP & LSP Kimia Industri' }}</span>
+                <span><i class="bi bi-person-fill" style="color: #38bdf8;"></i> {{ $article->author ?? 'Instruktur BNSP & LSP Kimia Industri' }}</span>
                 <span>•</span>
-                <span><i class="bi bi-clock-history" style="color: #34d399;"></i> Waktu Baca: 35-45 Menit (Panduan Komprehensif)</span>
+                <span><i class="bi bi-clock-history" style="color: #38bdf8;"></i> Waktu Baca: 35-45 Menit (Panduan Komprehensif)</span>
                 <span>•</span>
-                <span><i class="bi bi-eye-fill" style="color: #34d399;"></i> {{ number_format($article->views_count ?? 450) }} x dibaca</span>
+                <span><i class="bi bi-eye-fill" style="color: #38bdf8;"></i> {{ number_format($article->views_count ?? 450) }} x dibaca</span>
                 <span>•</span>
-                <span style="color: #6ee7b7; font-weight: 700;"><i class="bi bi-patch-check-fill"></i> Standar Resmi LSP Kimia Industri & BNSP</span>
+                <span style="color: #7dd3fc; font-weight: 700;"><i class="bi bi-patch-check-fill"></i> Standar Resmi LSP Kimia Industri & BNSP</span>
             </div>
         </div>
     </section>
@@ -72,18 +72,18 @@
                                 ? route('wilayah.kabkot.program', [$province['slug'], $kabkotSlug, $program['slug']])
                                 : route('wilayah.provinsi.program', [$province['slug'], $program['slug']]);
                         @endphp
-                        <div style="background: #ecfdf5; border: 1px solid #a7f3d0; border-radius: 8px; padding: 12px 18px; margin-bottom: 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+                        <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 8px; padding: 12px 18px; margin-bottom: 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
                             <div style="font-size: 0.84rem; color: #065f46; font-weight: 600;">
-                                <i class="bi bi-info-circle-fill" style="color: #10b981;"></i> Modul resmi: <strong>{{ $program['title'] }} — {{ $regionName }}</strong>
+                                <i class="bi bi-info-circle-fill" style="color: #0284c7;"></i> Modul resmi: <strong>{{ $program['title'] }} — {{ $regionName }}</strong>
                             </div>
-                            <a href="{{ $programUrl }}#daftar-200-artikel" style="font-size: 0.82rem; font-weight: 700; color: #059669; display: inline-flex; align-items: center; gap: 6px;">
+                            <a href="{{ $programUrl }}#daftar-200-artikel" style="font-size: 0.82rem; font-weight: 700; color: #0369a1; display: inline-flex; align-items: center; gap: 6px;">
                                 <i class="bi bi-arrow-left"></i> Kembali ke 200 Modul Artikel
                             </a>
                         </div>
 
                         <!-- Highlight Excerpt -->
-                        <div style="font-size: 1.02rem; font-weight: 600; color: #0f172a; background: #f0fdf4; border-left: 4px solid #10b981; padding: 16px 20px; border-radius: 8px; margin-bottom: 28px;">
-                            <div style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.8px; color: #059669; margin-bottom: 6px; font-weight: 800;">
+                        <div style="font-size: 1.02rem; font-weight: 600; color: #0f172a; background: #f0fdf4; border-left: 4px solid #0284c7; padding: 16px 20px; border-radius: 8px; margin-bottom: 28px;">
+                            <div style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.8px; color: #0369a1; margin-bottom: 6px; font-weight: 800;">
                                 <i class="bi bi-bookmark-check-fill"></i> Ringkasan Eksekutif Kurikulum
                             </div>
                             {{ $article->excerpt }}
@@ -92,7 +92,7 @@
                         <!-- 4 WHATSAPP HOTLINES CARD (INSIDE ARTICLE READER) -->
                         <div class="wa-hotlines-box" style="margin: 0 0 32px 0;">
                             <div class="wa-hotlines-header">
-                                <h3><i class="bi bi-headset" style="color: var(--accent-mint); margin-right: 8px;"></i> 4 Nomor Kontak WhatsApp Pendaftaran & Konsultasi</h3>
+                                <h3><i class="bi bi-headset" style="color: var(--accent-sky); margin-right: 8px;"></i> 4 Nomor Kontak WhatsApp Pendaftaran & Konsultasi</h3>
                                 <p>Butuh penjelasan materi teknis, jadwal batch, atau sertifikasi BNSP & LSP Kimia Industri? Hubungi konsultan kami:</p>
                             </div>
 
@@ -142,17 +142,17 @@
                         </div>
 
                         <!-- Article End CTA Banner -->
-                        <div style="background: linear-gradient(135deg, #06241b 0%, #0c3327 100%); border-radius: 12px; padding: 28px; color: #ffffff; margin-top: 40px; text-align: center;">
-                            <div style="font-size: 0.8rem; color: #34d399; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
+                        <div style="background: linear-gradient(135deg, #081a30 0%, #0d2746 100%); border-radius: 12px; padding: 28px; color: #ffffff; margin-top: 40px; text-align: center;">
+                            <div style="font-size: 0.8rem; color: #38bdf8; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
                                 Pendaftaran & Uji Sertifikasi Resmi
                             </div>
                             <h3 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 12px;">
                                 Siap Mengikuti Pelatihan {{ $program['title'] }} di {{ $regionName }}?
                             </h3>
-                            <p style="font-size: 0.88rem; color: #a7f3d0; max-width: 600px; margin: 0 auto 20px; line-height: 1.6;">
+                            <p style="font-size: 0.88rem; color: #bae6fd; max-width: 600px; margin: 0 auto 20px; line-height: 1.6;">
                                 Dapatkan silabus teknis lengkap, jadwal batch terdekat, dan konfirmasi kuota peserta dengan menghubungi WhatsApp kami:
                             </p>
-                            <a href="{{ $waLink }}" target="_blank" class="btn-primary-green" style="font-size: 0.95rem; padding: 12px 28px; display: inline-flex;">
+                            <a href="{{ $waLink }}" target="_blank" class="btn-primary-blue" style="font-size: 0.95rem; padding: 12px 28px; display: inline-flex;">
                                 <i class="bi bi-whatsapp"></i> Chat WhatsApp: 081399810272
                             </a>
                         </div>
@@ -167,7 +167,7 @@
                             Informasi Pendaftaran
                         </h3>
 
-                        <a href="{{ $waLink }}" target="_blank" class="btn-primary-green" style="width: 100%; justify-content: center; margin-bottom: 12px;">
+                        <a href="{{ $waLink }}" target="_blank" class="btn-primary-blue" style="width: 100%; justify-content: center; margin-bottom: 12px;">
                             <i class="bi bi-whatsapp"></i> Chat Hotline Utama WA
                         </a>
 
@@ -192,13 +192,13 @@
                                         }
                                     @endphp
                                     <a href="{{ $otherUrl }}" style="font-size: 0.8rem; color: #334155; line-height: 1.4; padding: 6px 8px; border-radius: 6px; background: #f8fafc; border: 1px solid #e2e8f0; text-decoration: none; display: block;">
-                                        <div style="font-size: 0.68rem; font-weight: 700; color: #059669;">Modul {{ $otherArt->index }}</div>
+                                        <div style="font-size: 0.68rem; font-weight: 700; color: #0369a1;">Modul {{ $otherArt->index }}</div>
                                         <div style="font-weight: 600;">{{ Str::limit($otherArt->title, 55) }}</div>
                                     </a>
                                 @endforeach
                             </div>
 
-                            <a href="{{ $programUrl }}#daftar-200-artikel" style="font-size: 0.82rem; font-weight: 700; color: #10b981; margin-top: 12px; display: inline-flex; align-items: center; gap: 4px;">
+                            <a href="{{ $programUrl }}#daftar-200-artikel" style="font-size: 0.82rem; font-weight: 700; color: #0284c7; margin-top: 12px; display: inline-flex; align-items: center; gap: 4px;">
                                 Buka Seluruh 200 Topik <i class="bi bi-chevron-right"></i>
                             </a>
                         </div>

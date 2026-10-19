@@ -27,8 +27,8 @@
         <div class="container">
             
             @if(session('success'))
-                <div style="background: #ecfdf5; border: 1.5px solid #10b981; border-radius: 12px; padding: 20px 24px; color: #065f46; font-size: 0.95rem; font-weight: 600; margin-bottom: 32px; display: flex; align-items: center; gap: 14px; box-shadow: 0 4px 16px rgba(16, 185, 129, 0.12);">
-                    <div style="width: 40px; height: 40px; background: #10b981; color: #ffffff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; flex-shrink: 0;">
+                <div style="background: #f0f9ff; border: 1.5px solid #0284c7; border-radius: 12px; padding: 20px 24px; color: #065f46; font-size: 0.95rem; font-weight: 600; margin-bottom: 32px; display: flex; align-items: center; gap: 14px; box-shadow: 0 4px 16px rgba(2, 132, 199, 0.12);">
+                    <div style="width: 40px; height: 40px; background: #0284c7; color: #ffffff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; flex-shrink: 0;">
                         <i class="bi bi-check-lg"></i>
                     </div>
                     <div>
@@ -42,8 +42,8 @@
                 
                 <!-- Contact Info Sidebar -->
                 <div>
-                    <div style="background: linear-gradient(160deg, #06241b 0%, #0c3327 100%); color: #ffffff; border-radius: 16px; padding: 36px 28px; border: 1px solid rgba(16, 185, 129, 0.3); box-shadow: 0 12px 30px rgba(6, 36, 27, 0.35);">
-                        <div style="display: inline-flex; align-items: center; gap: 6px; background: rgba(16, 185, 129, 0.2); border: 1px solid rgba(52, 211, 153, 0.3); color: #6ee7b7; font-size: 0.74rem; font-weight: 800; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 14px;">
+                    <div style="background: linear-gradient(160deg, #081a30 0%, #0d2746 100%); color: #ffffff; border-radius: 16px; padding: 36px 28px; border: 1px solid rgba(2, 132, 199, 0.3); box-shadow: 0 12px 30px rgba(8, 26, 48, 0.35);">
+                        <div style="display: inline-flex; align-items: center; gap: 6px; background: rgba(2, 132, 199, 0.2); border: 1px solid rgba(52, 211, 153, 0.3); color: #7dd3fc; font-size: 0.74rem; font-weight: 800; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 14px;">
                             <i class="bi bi-shield-check"></i> Kontak Resmi BNSP & LSP Kimia Industri
                         </div>
                         <h3 style="font-size: 1.4rem; font-weight: 800; margin-bottom: 8px; color: #ffffff;">Saluran Hotline Resmi</h3>
@@ -53,54 +53,54 @@
 
                         <div style="display: flex; flex-direction: column; gap: 14px; margin-bottom: 28px;">
                             <!-- WA 1 -->
-                            <a href="https://api.whatsapp.com/send?phone=628118500177" target="_blank" style="display: flex; align-items: center; gap: 14px; padding: 12px 14px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 10px; text-decoration: none; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(16,185,129,0.15)'; this.style.borderColor='#10b981'" onmouseout="this.style.background='rgba(255,255,255,0.05)'; this.style.borderColor='rgba(255,255,255,0.1)'">
-                                <div style="width: 40px; height: 40px; background: rgba(16, 185, 129, 0.25); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #34d399; font-size: 1.2rem; flex-shrink: 0;">
+                            <a href="https://api.whatsapp.com/send?phone=628118500177" target="_blank" style="display: flex; align-items: center; gap: 14px; padding: 12px 14px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 10px; text-decoration: none; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(16,185,129,0.15)'; this.style.borderColor='#0284c7'" onmouseout="this.style.background='rgba(255,255,255,0.05)'; this.style.borderColor='rgba(255,255,255,0.1)'">
+                                <div style="width: 40px; height: 40px; background: rgba(2, 132, 199, 0.25); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #38bdf8; font-size: 1.2rem; flex-shrink: 0;">
                                     <i class="bi bi-calendar-check"></i>
                                 </div>
                                 <div style="flex-grow: 1;">
-                                    <div style="font-size: 0.72rem; color: #a7f3d0; text-transform: uppercase; font-weight: 700; letter-spacing: 0.3px;">Hotline 1 (Jadwal & Kuota)</div>
+                                    <div style="font-size: 0.72rem; color: #bae6fd; text-transform: uppercase; font-weight: 700; letter-spacing: 0.3px;">Hotline 1 (Jadwal & Kuota)</div>
                                     <div style="font-size: 1rem; font-weight: 800; color: #ffffff;">0811-8500-177</div>
                                 </div>
-                                <i class="bi bi-chevron-right" style="color: #6ee7b7; font-size: 0.85rem;"></i>
+                                <i class="bi bi-chevron-right" style="color: #7dd3fc; font-size: 0.85rem;"></i>
                             </a>
 
                             <!-- WA 2 (Utama) -->
-                            <a href="https://api.whatsapp.com/send?phone=6281399810272" target="_blank" style="display: flex; align-items: center; gap: 14px; padding: 14px 16px; background: rgba(16, 185, 129, 0.18); border: 1.5px solid #10b981; border-radius: 10px; text-decoration: none; transition: all 0.2s ease; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.2);" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='none'">
-                                <div style="width: 42px; height: 42px; background: linear-gradient(135deg, #10b981 0%, #059669 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #ffffff; font-size: 1.3rem; flex-shrink: 0;">
+                            <a href="https://api.whatsapp.com/send?phone=6281399810272" target="_blank" style="display: flex; align-items: center; gap: 14px; padding: 14px 16px; background: rgba(2, 132, 199, 0.18); border: 1.5px solid #0284c7; border-radius: 10px; text-decoration: none; transition: all 0.2s ease; box-shadow: 0 4px 14px rgba(2, 132, 199, 0.2);" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='none'">
+                                <div style="width: 42px; height: 42px; background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #ffffff; font-size: 1.3rem; flex-shrink: 0;">
                                     <i class="bi bi-whatsapp"></i>
                                 </div>
                                 <div style="flex-grow: 1;">
                                     <div style="display: flex; align-items: center; gap: 6px;">
-                                        <span style="font-size: 0.70rem; color: #6ee7b7; text-transform: uppercase; font-weight: 800; letter-spacing: 0.5px;">Hotline Utama</span>
-                                        <span style="font-size: 0.65rem; background: #10b981; color: #ffffff; font-weight: 800; padding: 1px 6px; border-radius: 10px;">Prioritas</span>
+                                        <span style="font-size: 0.70rem; color: #7dd3fc; text-transform: uppercase; font-weight: 800; letter-spacing: 0.5px;">Hotline Utama</span>
+                                        <span style="font-size: 0.65rem; background: #0284c7; color: #ffffff; font-weight: 800; padding: 1px 6px; border-radius: 10px;">Prioritas</span>
                                     </div>
-                                    <div style="font-size: 1.05rem; font-weight: 900; color: #34d399;">0813-9981-0272</div>
+                                    <div style="font-size: 1.05rem; font-weight: 900; color: #38bdf8;">0813-9981-0272</div>
                                 </div>
-                                <i class="bi bi-chevron-right" style="color: #34d399; font-size: 1rem;"></i>
+                                <i class="bi bi-chevron-right" style="color: #38bdf8; font-size: 1rem;"></i>
                             </a>
 
                             <!-- WA 3 -->
-                            <a href="https://api.whatsapp.com/send?phone=6287894580806" target="_blank" style="display: flex; align-items: center; gap: 14px; padding: 12px 14px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 10px; text-decoration: none; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(16,185,129,0.15)'; this.style.borderColor='#10b981'" onmouseout="this.style.background='rgba(255,255,255,0.05)'; this.style.borderColor='rgba(255,255,255,0.1)'">
-                                <div style="width: 40px; height: 40px; background: rgba(16, 185, 129, 0.25); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #34d399; font-size: 1.2rem; flex-shrink: 0;">
+                            <a href="https://api.whatsapp.com/send?phone=6287894580806" target="_blank" style="display: flex; align-items: center; gap: 14px; padding: 12px 14px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 10px; text-decoration: none; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(16,185,129,0.15)'; this.style.borderColor='#0284c7'" onmouseout="this.style.background='rgba(255,255,255,0.05)'; this.style.borderColor='rgba(255,255,255,0.1)'">
+                                <div style="width: 40px; height: 40px; background: rgba(2, 132, 199, 0.25); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #38bdf8; font-size: 1.2rem; flex-shrink: 0;">
                                     <i class="bi bi-journal-check"></i>
                                 </div>
                                 <div style="flex-grow: 1;">
-                                    <div style="font-size: 0.72rem; color: #a7f3d0; text-transform: uppercase; font-weight: 700; letter-spacing: 0.3px;">Hotline 3 (Silabus & Teknis Full Body Harness & Lanyard)</div>
+                                    <div style="font-size: 0.72rem; color: #bae6fd; text-transform: uppercase; font-weight: 700; letter-spacing: 0.3px;">Hotline 3 (Silabus & Teknis Spill Kit & Chemical Handling)</div>
                                     <div style="font-size: 1rem; font-weight: 800; color: #ffffff;">0878-9458-0806</div>
                                 </div>
-                                <i class="bi bi-chevron-right" style="color: #6ee7b7; font-size: 0.85rem;"></i>
+                                <i class="bi bi-chevron-right" style="color: #7dd3fc; font-size: 0.85rem;"></i>
                             </a>
 
                             <!-- WA 4 -->
-                            <a href="https://api.whatsapp.com/send?phone=6287894580649" target="_blank" style="display: flex; align-items: center; gap: 14px; padding: 12px 14px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 10px; text-decoration: none; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(16,185,129,0.15)'; this.style.borderColor='#10b981'" onmouseout="this.style.background='rgba(255,255,255,0.05)'; this.style.borderColor='rgba(255,255,255,0.1)'">
-                                <div style="width: 40px; height: 40px; background: rgba(16, 185, 129, 0.25); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #34d399; font-size: 1.2rem; flex-shrink: 0;">
+                            <a href="https://api.whatsapp.com/send?phone=6287894580649" target="_blank" style="display: flex; align-items: center; gap: 14px; padding: 12px 14px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 10px; text-decoration: none; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(16,185,129,0.15)'; this.style.borderColor='#0284c7'" onmouseout="this.style.background='rgba(255,255,255,0.05)'; this.style.borderColor='rgba(255,255,255,0.1)'">
+                                <div style="width: 40px; height: 40px; background: rgba(2, 132, 199, 0.25); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #38bdf8; font-size: 1.2rem; flex-shrink: 0;">
                                     <i class="bi bi-buildings"></i>
                                 </div>
                                 <div style="flex-grow: 1;">
-                                    <div style="font-size: 0.72rem; color: #a7f3d0; text-transform: uppercase; font-weight: 700; letter-spacing: 0.3px;">Hotline 4 (In-House B2B Korporasi)</div>
+                                    <div style="font-size: 0.72rem; color: #bae6fd; text-transform: uppercase; font-weight: 700; letter-spacing: 0.3px;">Hotline 4 (In-House B2B Korporasi)</div>
                                     <div style="font-size: 1rem; font-weight: 800; color: #ffffff;">0878-9458-0649</div>
                                 </div>
-                                <i class="bi bi-chevron-right" style="color: #6ee7b7; font-size: 0.85rem;"></i>
+                                <i class="bi bi-chevron-right" style="color: #7dd3fc; font-size: 0.85rem;"></i>
                             </a>
                         </div>
 
@@ -126,7 +126,7 @@
                             </div>
                         </div>
 
-                        <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Admin Training K3 Kimia, saya ingin konsultasi pendaftaran pelatihan.') }}" target="_blank" class="btn-primary-green" style="width: 100%; justify-content: center; font-size: 0.92rem; padding: 12px 18px; border-radius: 10px; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4);">
+                        <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Admin Training K3 Kimia, saya ingin konsultasi pendaftaran pelatihan.') }}" target="_blank" class="btn-primary-blue" style="width: 100%; justify-content: center; font-size: 0.92rem; padding: 12px 18px; border-radius: 10px; box-shadow: 0 4px 14px rgba(2, 132, 199, 0.4);">
                             <i class="bi bi-whatsapp"></i> Chat Hotline Utama WhatsApp
                         </a>
                     </div>
@@ -137,7 +137,7 @@
                     <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 36px 32px; box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);">
                         
                         <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; flex-wrap: wrap; gap: 10px;">
-                            <span style="font-size: 0.76rem; font-weight: 800; background: #ecfdf5; color: #059669; padding: 4px 14px; border-radius: 20px; border: 1px solid #a7f3d0; text-transform: uppercase;">
+                            <span style="font-size: 0.76rem; font-weight: 800; background: #f0f9ff; color: #0369a1; padding: 4px 14px; border-radius: 20px; border: 1px solid #bae6fd; text-transform: uppercase;">
                                 <i class="bi bi-lightning-charge-fill"></i> Respon Cepat < 15 Menit
                             </span>
                             <span style="font-size: 0.78rem; color: #94a3b8;">
@@ -220,12 +220,12 @@
                             </div>
 
                             <!-- Submit Button -->
-                            <button type="submit" class="btn-primary-green" style="width: 100%; justify-content: center; padding: 14px 28px; font-size: 1rem; font-weight: 800; border-radius: 10px; border: none; cursor: pointer; box-shadow: 0 4px 16px rgba(16, 185, 129, 0.35); margin-top: 8px;">
+                            <button type="submit" class="btn-primary-blue" style="width: 100%; justify-content: center; padding: 14px 28px; font-size: 1rem; font-weight: 800; border-radius: 10px; border: none; cursor: pointer; box-shadow: 0 4px 16px rgba(2, 132, 199, 0.35); margin-top: 8px;">
                                 <i class="bi bi-send-fill"></i> Kirim Permohonan & Minta Penawaran Resmi
                             </button>
 
                             <div style="font-size: 0.78rem; color: #94a3b8; text-align: center; margin-top: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
-                                <i class="bi bi-shield-lock-fill" style="color: #10b981;"></i> Data Anda aman dan hanya digunakan untuk keperluan konfirmasi pelatihan resmi.
+                                <i class="bi bi-shield-lock-fill" style="color: #0284c7;"></i> Data Anda aman dan hanya digunakan untuk keperluan konfirmasi pelatihan resmi.
                             </div>
                         </form>
 
@@ -237,17 +237,17 @@
             <!-- 3 VALUE GUARANTEES -->
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 56px;">
                 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; display: flex; gap: 16px; align-items: flex-start;">
-                    <div style="width: 44px; height: 44px; background: #ecfdf5; border: 1px solid #a7f3d0; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #059669; font-size: 1.3rem; flex-shrink: 0;">
+                    <div style="width: 44px; height: 44px; background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #0369a1; font-size: 1.3rem; flex-shrink: 0;">
                         <i class="bi bi-patch-check-fill"></i>
                     </div>
                     <div>
                         <h4 style="font-size: 1rem; font-weight: 800; color: #0f172a; margin-bottom: 4px;">Sertifikasi Resmi BNSP & LSP Kimia Industri</h4>
-                        <p style="font-size: 0.82rem; color: #64748b; line-height: 1.5; margin: 0;">Lisensi K3 TKBT (Ketinggian) resmi dengan SKP dan sertifikat terdaftar di LSP Kimia Industri & BNSP.</p>
+                        <p style="font-size: 0.82rem; color: #64748b; line-height: 1.5; margin: 0;">Lisensi K3 Kimia Industri BNSP resmi dengan SKP dan sertifikat terdaftar di LSP Kimia Industri & BNSP.</p>
                     </div>
                 </div>
 
                 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; display: flex; gap: 16px; align-items: flex-start;">
-                    <div style="width: 44px; height: 44px; background: #ecfdf5; border: 1px solid #a7f3d0; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #059669; font-size: 1.3rem; flex-shrink: 0;">
+                    <div style="width: 44px; height: 44px; background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #0369a1; font-size: 1.3rem; flex-shrink: 0;">
                         <i class="bi bi-person-badge-fill"></i>
                     </div>
                     <div>
@@ -257,7 +257,7 @@
                 </div>
 
                 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; display: flex; gap: 16px; align-items: flex-start;">
-                    <div style="width: 44px; height: 44px; background: #ecfdf5; border: 1px solid #a7f3d0; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #059669; font-size: 1.3rem; flex-shrink: 0;">
+                    <div style="width: 44px; height: 44px; background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #0369a1; font-size: 1.3rem; flex-shrink: 0;">
                         <i class="bi bi-buildings-fill"></i>
                     </div>
                     <div>

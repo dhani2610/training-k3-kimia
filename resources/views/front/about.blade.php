@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('title', 'Tentang Kami | Sejarah, Visi, Misi & Legalitas Training K3 Kimia')
-@section('meta_description', 'Profil lengkap, sejarah pendirian, visi, misi, dan legalitas pembinaan K3 TKBT (Ketinggian) (Bangunan Tinggi / Ketinggian) resmi berstandar BNSP & LSP Kimia Industri dan BNSP.')
+@section('meta_description', 'Profil lengkap, sejarah pendirian, visi, misi, dan legalitas pembinaan K3 Kimia Industri BNSP (K3 Kimia Industri & Laboratorium) resmi berstandar BNSP & LSP Kimia Industri dan BNSP.')
 
 @section('content')
 
@@ -14,7 +14,7 @@
             </div>
 
             <h1 class="hero-title" style="font-size: 2.35rem;">
-                Membangun Budaya Keselamatan <span>Bangunan Tinggi / Ketinggian</span> di Seluruh Indonesia
+                Membangun Budaya Keselamatan <span>K3 Kimia Industri & Laboratorium</span> di Seluruh Indonesia
             </h1>
 
             <p class="hero-lead" style="max-width: 780px;">
@@ -30,62 +30,62 @@
                 <div>
                     <span class="section-tag">Sejarah Kami</span>
                     <h2 class="section-title" style="font-size: 1.85rem; margin-bottom: 18px;">
-                        Berawal dari Komitmen Menekan Angka Fatalitas di Ruang Tertutup
+                        Pusat Unggulan Pelatihan & Sertifikasi Profesi Kimia Industri Nasional
                     </h2>
                     <p style="font-size: 0.92rem; color: #475569; line-height: 1.7; margin-bottom: 14px;">
-                        Ruang terbatas (confined space) seperti tangki penyimpanan BBM, silo industri pangan, bejana tekan petrokimia, gorong-gorong bawah tanah, dan palka kapal merupakan lingkungan kerja dengan bahaya atmosferik mematikan yang tidak kasat mata. Tingginya angka kecelakaan kerja fatal akibat keracunan gas H2S, defisiensi oksigen, ledakan gas metana, dan kegagalan upaya penyelamatan darurat (emergency rescue) melatarbelakangi berdirinya lembaga kami.
+                        Industri proses kimia, petrokimia, farmasi, AMDK, pengolahan limbah B3, dan operasional laboratorium di Indonesia membutuhkan tenaga kerja berkualifikasi tinggi yang menguasai standar keselamatan kerja dan kepatuhan lingkungan hidup. Kebutuhan akan analis laboratorium bersertifikasi, petugas sampling lingkungan, penanggung jawab IPAL (PPCA/POPAL), penanggung jawab emisi udara (PPPU/POPU), hingga Ahli K3 Kimia terus meningkat secara signifikan.
                     </p>
                     <p style="font-size: 0.92rem; color: #475569; line-height: 1.7; margin-bottom: 20px;">
-                        Didirikan oleh para praktisi senior Keselamatan dan Kesehatan Kerja (K3) bersama instruktur tersertifikasi BNSP & LSP Kimia Industri, lembaga <strong>Training K3 Kimia</strong> tumbuh menjadi pusat pembinaan terdepan di Indonesia yang mengintegrasikan teori hukum ketenagakerjaan, simulasi perizinan izin masuk (entry permit & LOTO), serta fasilitas praktikum Alat Pelindung Jatuh (PFAS) dan Full Body Harness & Lanyard berstandar internasional.
+                        Didirikan oleh para profesional keselamatan kerja, auditor lingkungan, dan asesor kompetensi berlisensi BNSP, <strong>Training K3 Kimia Indonesia</strong> hadir menyelenggarakan 32 skema sertifikasi terakreditasi berbasis SKKNI. Kami menyediakan pembinaan berstandar industri dengan fasilitas praktikum instrumen modern, simulasi penanganan tumpahan kimia, hingga validasi metode uji laboratorium.
                     </p>
                     <div style="display: flex; gap: 18px; flex-wrap: wrap;">
-                        <div style="background: #ecfdf5; border-left: 4px solid #10b981; padding: 12px 18px; border-radius: 0 8px 8px 0;">
-                            <div style="font-size: 1.3rem; font-weight: 800; color: #065f46;">100%</div>
-                            <div style="font-size: 0.78rem; color: #047857; font-weight: 600;">Sertifikasi Sah & Terdaftar</div>
+                        <div style="background: #f0f9ff; border-left: 4px solid #0284c7; padding: 12px 18px; border-radius: 0 8px 8px 0;">
+                            <div style="font-size: 1.3rem; font-weight: 800; color: #0284c7;">32 Skema</div>
+                            <div style="font-size: 0.78rem; color: #0369a1; font-weight: 600;">Sertifikasi Resmi BNSP</div>
                         </div>
-                        <div style="background: #ecfdf5; border-left: 4px solid #10b981; padding: 12px 18px; border-radius: 0 8px 8px 0;">
-                            <div style="font-size: 1.3rem; font-weight: 800; color: #065f46;">38</div>
-                            <div style="font-size: 0.78rem; color: #047857; font-weight: 600;">Wilayah Provinsi Jangkauan</div>
+                        <div style="background: #f0f9ff; border-left: 4px solid #0284c7; padding: 12px 18px; border-radius: 0 8px 8px 0;">
+                            <div style="font-size: 1.3rem; font-weight: 800; color: #0284c7;">38 Provinsi</div>
+                            <div style="font-size: 0.78rem; color: #0369a1; font-weight: 600;">Jangkauan Layanan Pelatihan</div>
                         </div>
                     </div>
                 </div>
 
-                <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: var(--radius-xl); padding: 32px; box-shadow: 0 8px 24px rgba(0,0,0,0.04);">
+                <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: var(--radius-xl); padding: 32px; box-shadow: 0 8px 24px rgba(2,132,199,0.06);">
                     <div style="margin-bottom: 28px;">
                         <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
-                            <div style="width: 38px; height: 38px; background: #ecfdf5; color: #059669; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.25rem;">
+                            <div style="width: 38px; height: 38px; background: #f0f9ff; color: #0369a1; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.25rem;">
                                 <i class="bi bi-eye-fill"></i>
                             </div>
                             <h3 style="font-size: 1.25rem; font-weight: 800; color: #0f172a; margin: 0;">Visi Lembaga</h3>
                         </div>
                         <p style="font-size: 0.9rem; color: #475569; line-height: 1.65; margin: 0;">
-                            Menjadi lembaga pembinaan dan uji kompetensi K3 Kimia Industri & Laboratorium (TKBT (Ketinggian)) nomor satu di Indonesia yang diakui secara nasional dan internasional, mewujudkan ekosistem industri nir-kecelakaan (Zero Accident) di mana setiap pekerja terlindungi dan pulang dengan selamat.
+                            Menjadi lembaga pembinaan dan sertifikasi kompetensi K3 Kimia Industri, Pengendalian Mutu Laboratorium, dan Pengelolaan Lingkungan Industri nomor satu di Indonesia yang terpercaya, profesional, dan berdaya saing global.
                         </p>
                     </div>
 
                     <div style="border-top: 1px solid #f1f5f9; padding-top: 24px;">
                         <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 14px;">
-                            <div style="width: 38px; height: 38px; background: #ecfdf5; color: #059669; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.25rem;">
+                            <div style="width: 38px; height: 38px; background: #f0f9ff; color: #0369a1; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.25rem;">
                                 <i class="bi bi-bullseye"></i>
                             </div>
                             <h3 style="font-size: 1.25rem; font-weight: 800; color: #0f172a; margin: 0;">Misi Utama</h3>
                         </div>
                         <ul style="list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 0.88rem; color: #475569; padding: 0;">
                             <li style="display: flex; align-items: flex-start; gap: 10px;">
-                                <i class="bi bi-check-circle-fill" style="color: #10b981; margin-top: 2px;"></i>
-                                <span>Menyelenggarakan pelatihan berbasis kompetensi berpedoman pada Kepdirjen Binwasnaker No. 113/2006 dan standar SKKNI.</span>
+                                <i class="bi bi-check-circle-fill" style="color: #0284c7; margin-top: 2px;"></i>
+                                <span>Menyelenggarakan pelatihan dan uji kompetensi profesi 32 skema sertifikasi berstandar SKKNI dan lisensi resmi BNSP RI.</span>
                             </li>
                             <li style="display: flex; align-items: flex-start; gap: 10px;">
-                                <i class="bi bi-check-circle-fill" style="color: #10b981; margin-top: 2px;"></i>
-                                <span>Membekali peserta dengan keterampilan praktikum nyata: Alat Pelindung Jatuh (PFAS) 4 gas, Full Body Harness & Lanyard 300 bar, blower ventilasi, dan tripod rescue.</span>
+                                <i class="bi bi-check-circle-fill" style="color: #0284c7; margin-top: 2px;"></i>
+                                <span>Membekali praktisi industri dengan keahlian teknis operasional: pengendalian mutu AMDK, sampling air & udara, instrumen HPLC/GC, operasional IPAL, dan manajemen limbah B3.</span>
                             </li>
                             <li style="display: flex; align-items: flex-start; gap: 10px;">
-                                <i class="bi bi-check-circle-fill" style="color: #10b981; margin-top: 2px;"></i>
-                                <span>Mendukung perusahaan dan industri strategis dalam penerapan izin masuk (entry permit) dan audit keselamatan confined space.</span>
+                                <i class="bi bi-check-circle-fill" style="color: #0284c7; margin-top: 2px;"></i>
+                                <span>Mendukung dunia usaha mewujudkan tempat kerja yang aman, minim risiko paparan zat kimia berbahaya, serta patuh terhadap regulasi KLHK dan Kemnaker RI.</span>
                             </li>
                             <li style="display: flex; align-items: flex-start; gap: 10px;">
-                                <i class="bi bi-check-circle-fill" style="color: #10b981; margin-top: 2px;"></i>
-                                <span>Menyediakan layanan konsultasi respon cepat dan kemitraan in-house training yang fleksibel di seluruh Indonesia.</span>
+                                <i class="bi bi-check-circle-fill" style="color: #0284c7; margin-top: 2px;"></i>
+                                <span>Menyediakan layanan konsultasi teknis respon cepat serta program In-House Training fleksibel di seluruh 38 provinsi Indonesia.</span>
                             </li>
                         </ul>
                     </div>
@@ -95,7 +95,7 @@
             <!-- 4 HOTLINE WHATSAPP -->
             <div class="wa-hotlines-box">
                 <div class="wa-hotlines-header">
-                    <h3><i class="bi bi-whatsapp" style="color: var(--accent-mint); margin-right: 8px;"></i> Kontak WhatsApp Resmi Lembaga Training K3 Kimia</h3>
+                    <h3><i class="bi bi-whatsapp" style="color: var(--accent-sky); margin-right: 8px;"></i> Kontak WhatsApp Resmi Lembaga Training K3 Kimia</h3>
                     <p>Silakan berkonsultasi langsung dengan konsultan kami mengenai jadwal pelatihan, modul silabus, atau proposal penawaran perusahaan:</p>
                 </div>
 

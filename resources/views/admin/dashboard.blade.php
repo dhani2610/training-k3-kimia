@@ -60,14 +60,14 @@
     </div>
 
     <!-- QUICK SHORTCUTS -->
-    <div class="admin-card" style="background: linear-gradient(135deg, #06241b 0%, #0c3327 100%); color: #ffffff; border: 1px solid rgba(16, 185, 129, 0.25);">
+    <div class="admin-card" style="background: linear-gradient(135deg, #081a30 0%, #0d2746 100%); color: #ffffff; border: 1px solid rgba(2, 132, 199, 0.25);">
         <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
             <div>
                 <h3 style="font-size: 1.15rem; font-weight: 800; margin-bottom: 4px; color: #ffffff;">Pusat Kontrol Cepat</h3>
-                <p style="font-size: 0.82rem; color: #a7f3d0;">Kelola nomor WhatsApp utama, 4 hotline detail, serta kurikulum 4 program K3 Confined Space.</p>
+                <p style="font-size: 0.82rem; color: #bae6fd;">Kelola nomor WhatsApp utama, 4 hotline detail, serta kurikulum 4 program K3 Confined Space.</p>
             </div>
             <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-                <a href="{{ route('admin.settings.whatsapp') }}" class="btn-admin-gold" style="background: #10b981; color: white;">
+                <a href="{{ route('admin.settings.whatsapp') }}" class="btn-admin-gold" style="background: #0284c7; color: white;">
                     <i class="bi bi-whatsapp"></i> Setting WhatsApp & Hotline
                 </a>
                 <a href="{{ route('admin.programs.create') }}" class="btn-admin-primary" style="background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2);">

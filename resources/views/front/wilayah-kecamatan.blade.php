@@ -1,14 +1,14 @@
 @extends('layouts.front')
 
-@section('title', 'Training K3 Kimia ' . $kecamatanData['name'] . ', ' . $kecamatanData['kabkot']['name'] . ' | Sertifikasi K3 Ketinggian')
-@section('meta_description', 'Layanan resmi pelatihan dan sertifikasi kompetensi K3 TKBT (K3 Kimia Industri & Laboratorium BNSP) di Kecamatan ' . $kecamatanData['name'] . ', ' . $kecamatanData['kabkot']['name'] . ', ' . $kecamatanData['province']['name'] . '. Hubungi WhatsApp 081399810272.')
+@section('title', 'Training K3 Kimia ' . $kecamatanData['name'] . ', ' . $kecamatanData['kabkot']['name'] . ' | Sertifikasi K3 Kimia Industri')
+@section('meta_description', 'Layanan resmi pelatihan dan sertifikasi kompetensi K3 Kimia Industri & Laboratorium BNSP di Kecamatan ' . $kecamatanData['name'] . ', ' . $kecamatanData['kabkot']['name'] . ', ' . $kecamatanData['province']['name'] . '. Hubungi WhatsApp 081399810272.')
 
 @section('content')
 
     <!-- HERO KECAMATAN -->
     <section class="hero-section" style="padding: 48px 0 44px; text-align: left;">
         <div class="container">
-            <div style="font-size: 0.82rem; color: #a7f3d0; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+            <div style="font-size: 0.82rem; color: #bae6fd; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
                 <a href="{{ route('home') }}" style="color: #cbd5e1;"><i class="bi bi-house-door"></i> Beranda</a>
                 <span>/</span>
                 <a href="{{ route('wilayah.provinsi', $kecamatanData['province']['slug']) }}" style="color: #cbd5e1;">Provinsi {{ $kecamatanData['province']['name'] }}</a>
@@ -22,7 +22,7 @@
                 <span class="hero-badge" style="margin-bottom: 0;">
                     <i class="bi bi-geo-alt-fill"></i> Kecamatan {{ $kecamatanData['name'] }}
                 </span>
-                <span class="hero-badge" style="margin-bottom: 0; background: rgba(52, 211, 153, 0.2); border-color: #34d399; color: #a7f3d0;">
+                <span class="hero-badge" style="margin-bottom: 0; background: rgba(52, 211, 153, 0.2); border-color: #38bdf8; color: #bae6fd;">
                     <i class="bi bi-buildings"></i> {{ $kecamatanData['kabkot']['name'] }}
                 </span>
                 <span class="hero-badge" style="margin-bottom: 0; background: rgba(245, 158, 11, 0.2); border-color: #f59e0b; color: #fde68a;">
@@ -35,11 +35,11 @@
             </h1>
 
             <p class="hero-lead" style="margin-left: 0; max-width: 880px; margin-bottom: 22px;">
-                Penyelenggaraan pelatihan kompetensi K3 K3 Kimia Industri & Laboratorium BNSP (TKBT Tingkat 1 & Tingkat 2) di Kecamatan {{ $kecamatanData['name'] }}, {{ $kecamatanData['kabkot']['name'] }}, Provinsi {{ $kecamatanData['province']['name'] }}. Menguasai teknik 100% Tie-Off, inspeksi Full Body Harness EN 361, Lanyard EN 355, perancah, dan keselamatan tower.
+                Penyelenggaraan pelatihan kompetensi K3 Kimia Industri & Laboratorium BNSP (32 Skema Sertifikasi BNSP) di Kecamatan {{ $kecamatanData['name'] }}, {{ $kecamatanData['kabkot']['name'] }}, Provinsi {{ $kecamatanData['province']['name'] }}. Menguasai teknik GHS Labeling & SDS MSDS Compliance, inspeksi Chemical Respirator & Hazmat Suit EN 361, Eye Washer & Safety Shower, perancah, dan keselamatan tower.
             </p>
 
             <div class="hero-cta" style="justify-content: flex-start; margin-bottom: 0;">
-                <a href="{{ $waLink }}" target="_blank" class="btn-primary-green">
+                <a href="{{ $waLink }}" target="_blank" class="btn-primary-blue">
                     <i class="bi bi-whatsapp"></i>
                     Konsultasi Wilayah {{ $kecamatanData['name'] }}
                 </a>
@@ -75,19 +75,19 @@
                         </div>
 
                         <div class="program-body">
-                            <div class="program-level">{{ $progObj->level_name ?? 'K3 Ketinggian' }}</div>
+                            <div class="program-level">{{ $progObj->level_name ?? 'K3 Kimia Industri' }}</div>
                             <h3 class="program-title">{{ $progObj->title }}</h3>
                             <p class="program-desc">
                                 {{ Str::limit($progObj->short_description ?? ($progObj->full_description ?? ''), 130) }}
                             </p>
 
                             <div class="program-meta">
-                                <div><i class="bi bi-geo-alt" style="color: #10b981;"></i> {{ $kecamatanData['name'] }}</div>
-                                <div><i class="bi bi-journal-check" style="color: #10b981;"></i> 200 Modul Artikel</div>
+                                <div><i class="bi bi-geo-alt" style="color: #0284c7;"></i> {{ $kecamatanData['name'] }}</div>
+                                <div><i class="bi bi-journal-check" style="color: #0284c7;"></i> 200 Modul Artikel</div>
                             </div>
 
                             <div class="program-footer-btn">
-                                <a href="{{ $progDetailUrl }}" class="btn-primary-green" style="width: 100%; justify-content: center; font-size: 0.84rem; padding: 10px 14px;">
+                                <a href="{{ $progDetailUrl }}" class="btn-primary-blue" style="width: 100%; justify-content: center; font-size: 0.84rem; padding: 10px 14px;">
                                     <i class="bi bi-collection-play-fill"></i> Buka 200 Artikel {{ $kecamatanData['name'] }}
                                 </a>
                             </div>
@@ -99,7 +99,7 @@
             <!-- 4 WHATSAPP HOTLINES -->
             <div class="wa-hotlines-box" style="margin-bottom: 48px;">
                 <div class="wa-hotlines-header">
-                    <h3><i class="bi bi-telephone-inbound-fill" style="color: var(--accent-mint); margin-right: 8px;"></i> 4 Nomor WhatsApp Resmi Layanan di {{ $kecamatanData['name'] }}</h3>
+                    <h3><i class="bi bi-telephone-inbound-fill" style="color: var(--accent-sky); margin-right: 8px;"></i> 4 Nomor WhatsApp Resmi Layanan di {{ $kecamatanData['name'] }}</h3>
                     <p>Silakan hubungi kontak resmi kami untuk konsultasi jadwal batch, silabus materi, dan pendaftaran mandiri maupun in-house corporate:</p>
                 </div>
 
@@ -145,11 +145,11 @@
                             <a href="{{ $artUrl }}">{{ $artObj->title }}</a>
                         </h3>
                         <p class="article-excerpt">
-                            Panduan teknis dan standar operasional K3 K3 Kimia Industri & Laboratorium BNSP (TKBT) di Kecamatan {{ $kecamatanData['name'] }}. Mengulas regulasi, kalkulasi jarak jatuh, mitigasi trauma suspensi, dan sertifikasi BNSP & LSP Kimia Industri.
+                            Panduan teknis dan standar operasional K3 Kimia Industri & Laboratorium BNSP di Kecamatan {{ $kecamatanData['name'] }}. Mengulas regulasi, kalkulasi Threshold Limit Value (TLV/NAB) kimia, mitigasi paparan uap kimia beracun & korosif, dan sertifikasi BNSP & LSP Kimia Industri.
                         </p>
                         <div class="article-footer">
                             <span><i class="bi bi-clock me-1"></i> {{ $artObj->read_time ?? 35 }} Menit Baca (6000-9000 Kata)</span>
-                            <a href="{{ $artUrl }}" class="btn-link" style="color: #059669; font-weight: 700;">
+                            <a href="{{ $artUrl }}" class="btn-link" style="color: #0369a1; font-weight: 700;">
                                 Baca Selengkapnya <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
@@ -163,7 +163,7 @@
                     <i class="bi bi-map-fill text-success"></i> Peta Lokasi Wilayah Kecamatan {{ $kecamatanData['name'] }}, {{ $kecamatanData['kabkot']['name'] }}
                 </h3>
                 <p style="font-size: 0.86rem; color: #64748b; margin-bottom: 18px;">
-                    Kami melayani pelatihan K3 TKBT baik secara publik maupun in-house training langsung ke fasilitas perusahaan Anda di area Kecamatan {{ $kecamatanData['name'] }} dan sekitarnya.
+                    Kami melayani pelatihan K3 Kimia Industri BNSP baik secara publik maupun in-house training langsung ke fasilitas perusahaan Anda di area Kecamatan {{ $kecamatanData['name'] }} dan sekitarnya.
                 </p>
                 <div style="width: 100%; height: 350px; border-radius: 12px; overflow: hidden; border: 1px solid #cbd5e1;">
                     <iframe src="{{ $mapUrl }}" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

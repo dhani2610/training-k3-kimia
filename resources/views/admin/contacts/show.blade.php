@@ -75,7 +75,7 @@
                         </button>
                     </form>
                 @else
-                    <span style="font-size: 0.82rem; color: #059669; font-weight: 700;">
+                    <span style="font-size: 0.82rem; color: #0369a1; font-weight: 700;">
                         <i class="bi bi-check-all"></i> Status: Telah Dibalas
                     </span>
                 @endif

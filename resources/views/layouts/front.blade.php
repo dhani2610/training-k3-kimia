@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Training K3 Kimia Industri (LSP Kimia Industri BNSP) | Sertifikasi LSP Kimia Industri & BNSP')</title>
-    <meta name="description" content="@yield('meta_description', 'Pusat pembinaan, bimbingan teknis, dan sertifikasi resmi K3 TKBT (Ruang Terbatas) Muda, Madya, Utama, dan Penyelamat (Rescue) standar BNSP & LSP Kimia Industri dan BNSP.')">
+    <meta name="description" content="@yield('meta_description', 'Pusat pembinaan, bimbingan teknis, dan sertifikasi resmi 32 Skema K3 Kimia Industri & Laboratorium Analitik standar BNSP & LSP Kimia Industri dan BNSP.')">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -12,20 +12,20 @@
     
     <style>
         :root {
-            --primary-green: #10b981;
-            --primary-green-dark: #059669;
-            --primary-green-light: #ecfdf5;
-            --primary-green-subtle: #d1fae5;
-            --primary-emerald-deep: #064e3b;
-            --bg-dark: #06241b;
-            --bg-dark-card: #0c3327;
-            --bg-dark-hover: #124434;
+            --primary-blue: #0284c7;
+            --primary-blue-dark: #0369a1;
+            --primary-blue-light: #f0f9ff;
+            --primary-blue-subtle: #e0f2fe;
+            --primary-deep: #0c4a6e;
+            --bg-dark: #081a30;
+            --bg-dark-card: #0d2746;
+            --bg-dark-hover: #13355d;
             --bg-light: #f8fafc;
             --bg-white: #ffffff;
             --text-dark: #0f172a;
             --text-muted: #64748b;
             --text-light: #94a3b8;
-            --accent-mint: #34d399;
+            --accent-sky: #38bdf8;
             --accent-amber: #f59e0b;
             --wa-green: #25d366;
             --wa-green-hover: #20ba5a;
@@ -33,7 +33,7 @@
             --border-light: #e2e8f0;
             --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
             --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.08), 0 2px 4px -2px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 28px -6px rgba(16, 185, 129, 0.18);
+            --shadow-lg: 0 12px 28px -6px rgba(2, 132, 199, 0.18);
             --radius-md: 8px;
             --radius-lg: 12px;
             --radius-xl: 18px;
@@ -117,21 +117,21 @@
         .brand-icon {
             width: 36px;
             height: 36px;
-            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
             border-radius: 9px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: #ffffff;
             font-size: 1.18rem;
-            box-shadow: 0 3px 10px rgba(16, 185, 129, 0.28);
+            box-shadow: 0 3px 10px rgba(2, 132, 199, 0.28);
             transition: all 0.2s ease;
             flex-shrink: 0;
         }
 
         .brand-logo:hover .brand-icon {
             transform: scale(1.05);
-            box-shadow: 0 5px 14px rgba(16, 185, 129, 0.38);
+            box-shadow: 0 5px 14px rgba(2, 132, 199, 0.38);
         }
 
         .brand-text h1 {
@@ -145,7 +145,7 @@
         }
 
         .brand-text h1 span {
-            color: #059669;
+            color: #0369a1;
         }
 
         .nav-menu {
@@ -171,18 +171,18 @@
         }
 
         .nav-link:hover {
-            color: #059669;
-            background: #ecfdf5;
+            color: #0369a1;
+            background: #f0f9ff;
         }
 
         .nav-link.active {
-            color: #059669;
-            background: #ecfdf5;
+            color: #0369a1;
+            background: #f0f9ff;
             font-weight: 700;
         }
 
         .btn-wa-header {
-            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
             color: #ffffff;
             font-size: 0.82rem;
             font-weight: 700;
@@ -191,7 +191,7 @@
             display: inline-flex;
             align-items: center;
             gap: 7px;
-            box-shadow: 0 3px 10px rgba(16, 185, 129, 0.25);
+            box-shadow: 0 3px 10px rgba(2, 132, 199, 0.25);
             transition: all 0.25s ease;
             text-decoration: none;
             white-space: nowrap;
@@ -199,10 +199,10 @@
         }
 
         .btn-wa-header:hover {
-            background: linear-gradient(135deg, #059669 0%, #047857 100%);
+            background: linear-gradient(135deg, #0369a1 0%, #075985 100%);
             transform: translateY(-1px);
             color: #ffffff;
-            box-shadow: 0 5px 15px rgba(16, 185, 129, 0.35);
+            box-shadow: 0 5px 15px rgba(2, 132, 199, 0.35);
         }
 
         .btn-wa-header i {
@@ -263,16 +263,16 @@
         }
 
         .mobile-nav-link:hover {
-            background: #ecfdf5;
-            color: #059669;
+            background: #f0f9ff;
+            color: #0369a1;
         }
 
         /* HERO DARK SECTION */
         .hero-section {
             background-color: var(--bg-dark);
             background-image: 
-                radial-gradient(circle at 85% 15%, rgba(16, 185, 129, 0.22) 0%, transparent 45%),
-                radial-gradient(circle at 15% 85%, rgba(5, 150, 105, 0.18) 0%, transparent 45%),
+                radial-gradient(circle at 85% 15%, rgba(2, 132, 199, 0.22) 0%, transparent 45%),
+                radial-gradient(circle at 15% 85%, rgba(3, 105, 161, 0.18) 0%, transparent 45%),
                 linear-gradient(to right, rgba(255,255,255,0.02) 1px, transparent 1px),
                 linear-gradient(to bottom, rgba(255,255,255,0.02) 1px, transparent 1px);
             background-size: 100% 100%, 100% 100%, 32px 32px, 32px 32px;
@@ -286,9 +286,9 @@
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            background: rgba(16, 185, 129, 0.15);
-            border: 1px solid rgba(16, 185, 129, 0.4);
-            color: var(--accent-mint);
+            background: rgba(2, 132, 199, 0.15);
+            border: 1px solid rgba(2, 132, 199, 0.4);
+            color: var(--accent-sky);
             font-size: 0.78rem;
             font-weight: 700;
             padding: 6px 18px;
@@ -310,7 +310,7 @@
         }
 
         .hero-title span {
-            background: linear-gradient(135deg, #a7f3d0 0%, #34d399 50%, #10b981 100%);
+            background: linear-gradient(135deg, #bae6fd 0%, #38bdf8 50%, #0284c7 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -332,8 +332,8 @@
             margin-bottom: 48px;
         }
 
-        .btn-primary-green {
-            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+        .btn-primary-blue {
+            background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
             color: #ffffff;
             font-size: 0.95rem;
             font-weight: 700;
@@ -342,13 +342,13 @@
             display: inline-flex;
             align-items: center;
             gap: 10px;
-            box-shadow: 0 4px 16px rgba(16, 185, 129, 0.4);
+            box-shadow: 0 4px 16px rgba(2, 132, 199, 0.4);
             transition: all 0.25s ease;
         }
 
-        .btn-primary-green:hover {
+        .btn-primary-blue:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 24px rgba(16, 185, 129, 0.55);
+            box-shadow: 0 8px 24px rgba(2, 132, 199, 0.55);
             color: #ffffff;
         }
 
@@ -378,8 +378,8 @@
             gap: 18px;
             max-width: 1000px;
             margin: 0 auto;
-            background: rgba(12, 51, 39, 0.7);
-            border: 1px solid rgba(16, 185, 129, 0.25);
+            background: rgba(12, 74, 110, 0.45);
+            border: 1px solid rgba(56, 189, 248, 0.35);
             border-radius: var(--radius-xl);
             padding: 24px;
             backdrop-filter: blur(8px);
@@ -392,7 +392,7 @@
         .stat-number {
             font-size: 1.85rem;
             font-weight: 800;
-            color: var(--accent-mint);
+            color: var(--accent-sky);
             line-height: 1.1;
             margin-bottom: 4px;
         }
@@ -405,8 +405,8 @@
 
         /* NOTICE STRIP (MODERN EMERALD ACCENT TOP) */
         .notice-bar {
-            background: linear-gradient(90deg, #064e3b 0%, #047857 50%, #064e3b 100%);
-            border-bottom: 1px solid rgba(16, 185, 129, 0.25);
+            background: linear-gradient(90deg, #0c4a6e 0%, #075985 50%, #0c4a6e 100%);
+            border-bottom: 1px solid rgba(2, 132, 199, 0.25);
             padding: 8px 20px;
             font-size: 0.78rem;
             color: #f0fdf4;
@@ -419,9 +419,9 @@
         }
 
         .notice-pill {
-            background: rgba(16, 185, 129, 0.25);
+            background: rgba(2, 132, 199, 0.25);
             border: 1px solid rgba(52, 211, 153, 0.35);
-            color: #6ee7b7;
+            color: #7dd3fc;
             font-size: 0.68rem;
             font-weight: 800;
             padding: 2px 8px;
@@ -451,12 +451,12 @@
             font-weight: 800;
             text-transform: uppercase;
             letter-spacing: 1px;
-            color: var(--primary-green-dark);
-            background: var(--primary-green-light);
+            color: var(--primary-blue-dark);
+            background: var(--primary-blue-light);
             padding: 5px 14px;
             border-radius: 30px;
             margin-bottom: 12px;
-            border: 1px solid var(--primary-green-subtle);
+            border: 1px solid var(--primary-blue-subtle);
         }
 
         .section-title {
@@ -495,8 +495,8 @@
 
         .program-card:hover {
             transform: translateY(-5px);
-            border-color: #a7f3d0;
-            box-shadow: 0 16px 32px -8px rgba(16, 185, 129, 0.22);
+            border-color: #bae6fd;
+            box-shadow: 0 16px 32px -8px rgba(2, 132, 199, 0.22);
         }
 
         .program-img-wrapper {
@@ -521,14 +521,14 @@
             position: absolute;
             top: 14px;
             left: 14px;
-            background: rgba(6, 78, 59, 0.9);
-            color: #a7f3d0;
+            background: rgba(12, 74, 110, 0.9);
+            color: #bae6fd;
             font-size: 0.72rem;
             font-weight: 800;
             padding: 5px 12px;
             border-radius: 20px;
             backdrop-filter: blur(4px);
-            border: 1px solid rgba(16, 185, 129, 0.4);
+            border: 1px solid rgba(2, 132, 199, 0.4);
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
@@ -543,7 +543,7 @@
         .program-level {
             font-size: 0.75rem;
             font-weight: 700;
-            color: var(--primary-green-dark);
+            color: var(--primary-blue-dark);
             margin-bottom: 6px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
@@ -599,9 +599,9 @@
         }
 
         .btn-card-wa {
-            background: #ecfdf5;
-            color: #059669;
-            border: 1px solid #a7f3d0;
+            background: #f0f9ff;
+            color: #0369a1;
+            border: 1px solid #bae6fd;
             text-align: center;
             padding: 9px 14px;
             border-radius: 8px;
@@ -615,20 +615,20 @@
         }
 
         .btn-card-wa:hover {
-            background: #10b981;
+            background: #0284c7;
             color: #ffffff;
-            border-color: #10b981;
+            border-color: #0284c7;
         }
 
         /* 4 WHATSAPP HOTLINES CARDS */
         .wa-hotlines-box {
-            background: linear-gradient(135deg, #06241b 0%, #0c3327 100%);
-            border: 1px solid rgba(16, 185, 129, 0.3);
+            background: linear-gradient(135deg, #081a30 0%, #0d2746 100%);
+            border: 1px solid rgba(2, 132, 199, 0.3);
             border-radius: var(--radius-xl);
             padding: 32px 28px;
             color: #ffffff;
             margin: 40px 0;
-            box-shadow: 0 12px 30px rgba(6, 36, 27, 0.35);
+            box-shadow: 0 12px 30px rgba(8, 26, 48, 0.35);
         }
 
         .wa-hotlines-header {
@@ -645,7 +645,7 @@
 
         .wa-hotlines-header p {
             font-size: 0.88rem;
-            color: #a7f3d0;
+            color: #bae6fd;
         }
 
         .wa-hotlines-grid {
@@ -667,8 +667,8 @@
         }
 
         .wa-hotline-card:hover {
-            background: rgba(16, 185, 129, 0.18);
-            border-color: var(--accent-mint);
+            background: rgba(2, 132, 199, 0.18);
+            border-color: var(--accent-sky);
             transform: translateY(-3px);
             color: inherit;
         }
@@ -683,7 +683,7 @@
         .wa-hotline-icon {
             width: 38px;
             height: 38px;
-            background: var(--primary-green);
+            background: var(--primary-blue);
             border-radius: 8px;
             display: flex;
             align-items: center;
@@ -698,7 +698,7 @@
             padding: 3px 8px;
             border-radius: 12px;
             background: rgba(52, 211, 153, 0.2);
-            color: #6ee7b7;
+            color: #7dd3fc;
             border: 1px solid rgba(52, 211, 153, 0.3);
         }
 
@@ -720,7 +720,7 @@
         .wa-hotline-phone {
             font-size: 1.05rem;
             font-weight: 800;
-            color: var(--accent-mint);
+            color: var(--accent-sky);
             display: flex;
             align-items: center;
             gap: 6px;
@@ -744,15 +744,15 @@
         }
 
         .article-card:hover {
-            border-color: #10b981;
-            box-shadow: 0 10px 24px rgba(16, 185, 129, 0.12);
+            border-color: #0284c7;
+            box-shadow: 0 10px 24px rgba(2, 132, 199, 0.12);
             transform: translateY(-3px);
         }
 
         .article-badge {
             align-self: flex-start;
-            background: #ecfdf5;
-            color: #059669;
+            background: #f0f9ff;
+            color: #0369a1;
             font-size: 0.72rem;
             font-weight: 800;
             padding: 4px 10px;
@@ -809,8 +809,8 @@
         }
 
         .province-chip:hover {
-            background: #ecfdf5;
-            border-color: #10b981;
+            background: #f0f9ff;
+            border-color: #0284c7;
             color: #065f46;
             transform: translateX(3px);
         }
@@ -833,8 +833,8 @@
         }
 
         .faq-item.active {
-            border-color: #10b981;
-            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.08);
+            border-color: #0284c7;
+            box-shadow: 0 4px 12px rgba(2, 132, 199, 0.08);
         }
 
         .faq-question {
@@ -870,7 +870,7 @@
             background: var(--bg-dark);
             color: #e2e8f0;
             padding: 64px 0 28px;
-            border-top: 1px solid rgba(16, 185, 129, 0.2);
+            border-top: 1px solid rgba(2, 132, 199, 0.2);
         }
 
         .footer-grid {
@@ -898,7 +898,7 @@
             left: 0;
             width: 28px;
             height: 2px;
-            background: var(--accent-mint);
+            background: var(--accent-sky);
         }
 
         .footer-desc {
@@ -922,7 +922,7 @@
         }
 
         .footer-links a:hover {
-            color: var(--accent-mint);
+            color: var(--accent-sky);
             padding-left: 4px;
         }
 
@@ -976,7 +976,7 @@
         }
 
         .form-label i {
-            color: #10b981;
+            color: #0284c7;
             font-size: 0.95rem;
         }
 
@@ -1001,8 +1001,8 @@
 
         .form-control:focus {
             background: #ffffff !important;
-            border-color: #10b981 !important;
-            box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.15) !important;
+            border-color: #0284c7 !important;
+            box-shadow: 0 0 0 4px rgba(2, 132, 199, 0.15) !important;
         }
 
         .form-control::placeholder {
@@ -1050,11 +1050,11 @@
         .article-rich-text h2 {
             font-size: 1.32rem;
             font-weight: 800;
-            color: #064e3b;
+            color: #0c4a6e;
             margin-top: 36px;
             margin-bottom: 16px;
             padding-bottom: 10px;
-            border-bottom: 2px solid #ecfdf5;
+            border-bottom: 2px solid #f0f9ff;
             display: flex;
             align-items: center;
             gap: 10px;
@@ -1066,7 +1066,7 @@
             display: inline-block;
             width: 5px;
             height: 22px;
-            background: #10b981;
+            background: #0284c7;
             border-radius: 4px;
             flex-shrink: 0;
         }
@@ -1074,7 +1074,7 @@
         .article-rich-text h3 {
             font-size: 1.12rem;
             font-weight: 700;
-            color: #047857;
+            color: #075985;
             margin-top: 24px;
             margin-bottom: 12px;
             line-height: 1.4;
@@ -1115,11 +1115,11 @@
         }
 
         .article-rich-text table th {
-            background: #ecfdf5;
+            background: #f0f9ff;
             color: #065f46;
             padding: 12px 14px;
             font-weight: 700;
-            border: 1px solid #d1fae5;
+            border: 1px solid #e0f2fe;
             text-align: left;
         }
 
@@ -1144,7 +1144,7 @@
         }
 
         .article-rich-text blockquote {
-            border-left: 4px solid #10b981;
+            border-left: 4px solid #0284c7;
             background: #f0fdf4;
             padding: 14px 20px;
             border-radius: 0 8px 8px 0;
@@ -1172,7 +1172,7 @@
             max-width: calc(100vw - 32px);
             background: #ffffff;
             border-radius: 18px;
-            box-shadow: 0 16px 40px -6px rgba(15, 23, 42, 0.25), 0 0 0 1px rgba(16, 185, 129, 0.15);
+            box-shadow: 0 16px 40px -6px rgba(15, 23, 42, 0.25), 0 0 0 1px rgba(2, 132, 199, 0.15);
             overflow: hidden;
             display: none;
             opacity: 0;
@@ -1188,7 +1188,7 @@
         }
 
         .wa-popup-header {
-            background: linear-gradient(135deg, #059669 0%, #047857 100%);
+            background: linear-gradient(135deg, #0369a1 0%, #075985 100%);
             color: #ffffff;
             padding: 16px 18px;
             display: flex;
@@ -1234,7 +1234,7 @@
 
         .wa-header-subtitle {
             font-size: 0.76rem;
-            color: #d1fae5;
+            color: #e0f2fe;
             margin-top: 2px;
         }
 
@@ -1287,10 +1287,10 @@
         }
 
         .wa-contact-card:hover {
-            border-color: #10b981;
-            background: #ecfdf5;
+            border-color: #0284c7;
+            background: #f0f9ff;
             transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.12);
+            box-shadow: 0 4px 12px rgba(2, 132, 199, 0.12);
         }
 
         .wa-primary-card {
@@ -1303,7 +1303,7 @@
             height: 38px;
             border-radius: 10px;
             background: #f1f5f9;
-            color: #059669;
+            color: #0369a1;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -1312,7 +1312,7 @@
         }
 
         .wa-primary-card .wa-contact-avatar {
-            background: #10b981;
+            background: #0284c7;
             color: #ffffff;
         }
 
@@ -1346,9 +1346,9 @@
         }
 
         .badge-primary-pulse {
-            background: #10b981;
+            background: #0284c7;
             color: #ffffff;
-            box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.3);
+            box-shadow: 0 0 0 2px rgba(2, 132, 199, 0.3);
         }
 
         .wa-contact-desc {
@@ -1555,11 +1555,12 @@
         <div class="container">
             <nav class="navbar">
                 <a href="{{ route('home') }}" class="brand-logo">
-                    <div class="brand-icon">
-                        <i class="bi bi-shield-check"></i>
+                    <div class="brand-icon" style="background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);">
+                        <i class="bi bi-droplet-half"></i>
                     </div>
                     <div class="brand-text">
-                        <h1>TRAINING <span>TKBT</span></h1>
+                        <h1>TRAINING <span>K3 KIMIA</span></h1>
+                        <span style="font-size: 0.62rem; color: #0284c7; font-weight: 800; letter-spacing: 0.5px; display: block; text-transform: uppercase;">LSP KIMIA INDUSTRI - BNSP</span>
                     </div>
                 </a>
 
@@ -1591,7 +1592,7 @@
             <a href="{{ route('articles') }}" class="mobile-nav-link">Artikel Daerah <i class="bi bi-chevron-right"></i></a>
             <a href="{{ route('home') }}#wilayah" class="mobile-nav-link">Wilayah Pelatihan <i class="bi bi-chevron-right"></i></a>
             <a href="{{ route('contact') }}" class="mobile-nav-link">Kontak Kami <i class="bi bi-chevron-right"></i></a>
-            <a href="{{ $waLink ?? 'https://api.whatsapp.com/send?phone=6281399810272' }}" target="_blank" class="btn-primary-green" style="justify-content: center; margin-top: 8px;">
+            <a href="{{ $waLink ?? 'https://api.whatsapp.com/send?phone=6281399810272' }}" target="_blank" class="btn-primary-blue" style="justify-content: center; margin-top: 8px;">
                 <i class="bi bi-whatsapp"></i> Chat WA: 0813-9981-0272
             </a>
         </div>
@@ -1612,14 +1613,14 @@
                             <i class="bi bi-shield-shaded"></i>
                         </div>
                         <div class="brand-text">
-                            <h3 style="font-size: 0.98rem; font-weight: 800; color: #fff;">TRAINING <span style="color: var(--accent-mint);">TKBT INDONESIA</span></h3>
+                            <h3 style="font-size: 0.98rem; font-weight: 800; color: #fff;">TRAINING <span style="color: var(--accent-sky);">K3 KIMIA INDONESIA</span></h3>
                         </div>
                     </div>
                     <p class="footer-desc">
-                        Lembaga resmi informasi, bimbingan teknis, dan sertifikasi keselamatan kerja K3 Ruang Terbatas (TKBT) berstandar BNSP & LSP Kimia Industri, BNSP, dan internasional OSHA 1910.146.
+                        Lembaga resmi informasi, bimbingan teknis, dan sertifikasi kompetensi K3 Kimia Industri dan Laboratorium berstandar BNSP, LSP Kimia Industri, dan Kemnaker RI.
                     </p>
                     <div style="margin-bottom: 16px;">
-                        <span style="font-size: 0.76rem; color: #6ee7b7; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 6px;">Hotline Utama Layanan:</span>
+                        <span style="font-size: 0.76rem; color: #7dd3fc; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 6px;">Hotline Utama Layanan:</span>
                         <a href="https://api.whatsapp.com/send?phone=6281399810272" target="_blank" style="color: #ffffff; font-weight: 800; font-size: 1.1rem; display: flex; align-items: center; gap: 8px;">
                             <i class="bi bi-whatsapp" style="color: #25d366;"></i> 0813-9981-0272
                         </a>
@@ -1650,16 +1651,16 @@
                     <h4>4 Kontak WhatsApp Resmi</h4>
                     <div style="display: flex; flex-direction: column; gap: 8px; font-size: 0.82rem;">
                         <a href="https://api.whatsapp.com/send?phone=628118500177" target="_blank" style="color: #cbd5e1; display: flex; align-items: center; gap: 8px;">
-                            <i class="bi bi-whatsapp" style="color: #34d399;"></i> <strong>CS 1 (Jadwal):</strong> 0811-8500-177
+                            <i class="bi bi-whatsapp" style="color: #38bdf8;"></i> <strong>CS 1 (Jadwal):</strong> 0811-8500-177
                         </a>
                         <a href="https://api.whatsapp.com/send?phone=6281399810272" target="_blank" style="color: #cbd5e1; display: flex; align-items: center; gap: 8px;">
-                            <i class="bi bi-whatsapp" style="color: #34d399;"></i> <strong>Hotline Utama:</strong> 0813-9981-0272
+                            <i class="bi bi-whatsapp" style="color: #38bdf8;"></i> <strong>Hotline Utama:</strong> 0813-9981-0272
                         </a>
                         <a href="https://api.whatsapp.com/send?phone=6287894580806" target="_blank" style="color: #cbd5e1; display: flex; align-items: center; gap: 8px;">
-                            <i class="bi bi-whatsapp" style="color: #34d399;"></i> <strong>Silabus Teknis:</strong> 0878-9458-0806
+                            <i class="bi bi-whatsapp" style="color: #38bdf8;"></i> <strong>Silabus Teknis:</strong> 0878-9458-0806
                         </a>
                         <a href="https://api.whatsapp.com/send?phone=6287894580649" target="_blank" style="color: #cbd5e1; display: flex; align-items: center; gap: 8px;">
-                            <i class="bi bi-whatsapp" style="color: #34d399;"></i> <strong>In-House B2B:</strong> 0878-9458-0649
+                            <i class="bi bi-whatsapp" style="color: #38bdf8;"></i> <strong>In-House B2B:</strong> 0878-9458-0649
                         </a>
                     </div>
                 </div>
@@ -1670,7 +1671,7 @@
                     &copy; {{ date('Y') }} Training K3 Kimia Indonesia. Seluruh hak cipta dilindungi.
                 </div>
                 <div>
-                    Standar Standar SKKNI & BNSP RI & SKKNI K3 Ruang Terbatas
+                    Standar SKKNI & LSP Kimia Industri - BNSP RI
                 </div>
             </div>
         </div>
@@ -1685,7 +1686,7 @@
                     <span class="online-indicator"></span>
                 </div>
                 <div class="wa-header-info">
-                    <div class="wa-header-title">Customer Care K3 TKBT</div>
+                    <div class="wa-header-title">Customer Care K3 Kimia Industri</div>
                     <div class="wa-header-subtitle">Siap melayani konsultasi & pendaftaran 24/7</div>
                 </div>
                 <button type="button" class="wa-close-btn" id="waCloseBtn" aria-label="Tutup"><i class="bi bi-x-lg"></i></button>
@@ -1712,7 +1713,7 @@
                 </a>
 
                 <!-- Card CS 1 (08118500177) -->
-                <a href="https://api.whatsapp.com/send?phone=628118500177&text={{ urlencode('Halo CS 1 Training K3 Kimia, saya ingin menanyakan jadwal batch terdekat dan kuota kelas.') }}" target="_blank" class="wa-contact-card">
+                <a href="https://api.whatsapp.com/send?phone=628118500177&text={{ urlencode('Halo CS 1 Training K3 Kimia, saya ingin menanyakan jadwal batch pelatihan terdekat dan uji kompetensi BNSP.') }}" target="_blank" class="wa-contact-card">
                     <div class="wa-contact-avatar">
                         <i class="bi bi-calendar2-check"></i>
                     </div>
@@ -1727,7 +1728,7 @@
                 </a>
 
                 <!-- Card CS 2 (087894580806) -->
-                <a href="https://api.whatsapp.com/send?phone=6287894580806&text={{ urlencode('Halo Konsultan Teknis Training K3 Kimia, saya ingin konsultasi silabus teknis dan materi APD Ketinggian.') }}" target="_blank" class="wa-contact-card">
+                <a href="https://api.whatsapp.com/send?phone=6287894580806&text={{ urlencode('Halo Konsultan Teknis Training K3 Kimia, saya ingin konsultasi silabus teknis laboratorium analitik dan penanganan bahan kimia B3.') }}" target="_blank" class="wa-contact-card">
                     <div class="wa-contact-avatar">
                         <i class="bi bi-book-half"></i>
                     </div>

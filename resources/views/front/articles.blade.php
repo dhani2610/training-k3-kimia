@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
-@section('title', 'Artikel & Panduan Teknis K3 TKBT (Ketinggian) (Bangunan Tinggi / Ketinggian)')
-@section('meta_description', 'Kumpulan artikel dan panduan teknis keselamatan kerja ruang terbatas, prosedur entry permit, pengoperasian Pengendalian Bahan Kimia Berbahaya, SDS GHS, dan Pengolahan Limbah B3, dan evakuasi darurat.')
+@section('title', 'Artikel & Panduan Teknis K3 Kimia Industri & Laboratorium BNSP')
+@section('meta_description', 'Kumpulan artikel dan panduan teknis keselamatan kerja kimia industri, prosedur penanganan tumpahan kimia, pengendalian mutu AMDK, pengolahan air limbah IPAL, dan emisi udara.')
 
 @section('content')
 
@@ -10,21 +10,21 @@
         <div class="container">
             <div class="hero-badge">
                 <i class="bi bi-book-half"></i>
-                Pusat Literasi & Panduan Resmi K3
+                Pusat Literasi & Panduan Resmi Kimia Industri
             </div>
 
             <h1 class="hero-title" style="font-size: 2.35rem;">
-                Artikel & Panduan Teknis <span>K3 TKBT (Ketinggian)</span>
+                Artikel & Panduan Teknis <span>K3 Kimia Industri BNSP</span>
             </h1>
 
             <p class="hero-lead" style="max-width: 800px;">
-                Materi komprehensif dan panduan resmi mengenai kepatuhan Kepdirjen Binwasnaker No. 113/2006, standar internasional OSHA 1910.146, izin masuk permit, pengoperasian Alat Pelindung Jatuh (PFAS), dan teknik evakuasi darurat.
+                Materi komprehensif dan panduan resmi mengenai standar keselamatan kerja kimia industri, regulasi pengendalian bahan kimia berbahaya (Permenaker No. 187/1999), baku mutu lingkungan KLHK, pengujian analitik laboratorium, dan sertifikasi BNSP.
             </p>
 
             <!-- Search Form -->
             <form action="{{ route('articles') }}" method="GET" style="max-width: 580px; margin: 0 auto; display: flex; gap: 10px;">
                 <input type="text" name="q" value="{{ request('q') }}" placeholder="Cari topik modul pelatihan atau nama daerah..." class="form-control" style="background: rgba(255,255,255,0.95); border: none; padding: 12px 18px; border-radius: 8px; font-size: 0.92rem;">
-                <button type="submit" class="btn-primary-green" style="padding: 12px 22px; flex-shrink: 0;">
+                <button type="submit" class="btn-primary-blue" style="padding: 12px 22px; flex-shrink: 0;">
                     <i class="bi bi-search"></i> Cari
                 </button>
             </form>
@@ -57,10 +57,10 @@
                         </div>
 
                         <div style="margin-top: 14px; padding-top: 10px; border-top: 1px dashed #e2e8f0; display: flex; align-items: center; justify-content: space-between;">
-                            <span style="font-size: 0.74rem; font-weight: 700; color: #059669;">
+                            <span style="font-size: 0.74rem; font-weight: 700; color: #0369a1;">
                                 <i class="bi bi-shield-check"></i> Modul Terverifikasi
                             </span>
-                            <a href="{{ route('article.detail', $art->slug) }}" style="font-size: 0.82rem; font-weight: 700; color: #10b981; display: flex; align-items: center; gap: 4px;">
+                            <a href="{{ route('article.detail', $art->slug) }}" style="font-size: 0.82rem; font-weight: 700; color: #0284c7; display: flex; align-items: center; gap: 4px;">
                                 Baca Selengkapnya <i class="bi bi-chevron-right"></i>
                             </a>
                         </div>
@@ -69,7 +69,7 @@
                     <div style="grid-column: 1 / -1; text-align: center; padding: 60px 20px; color: #64748b;">
                         <i class="bi bi-journal-x" style="font-size: 3rem; color: #cbd5e1; display: block; margin-bottom: 12px;"></i>
                         <p style="font-size: 1.1rem; font-weight: 700;">Tidak ada artikel yang cocok dengan kata kunci pencarian Anda.</p>
-                        <a href="{{ route('articles') }}" class="btn-primary-green" style="display: inline-flex; margin-top: 12px;">Lihat Semua Artikel</a>
+                        <a href="{{ route('articles') }}" class="btn-primary-blue" style="display: inline-flex; margin-top: 12px;">Lihat Semua Artikel</a>
                     </div>
                 @endforelse
             </div>
@@ -82,7 +82,7 @@
             <!-- 4 WHATSAPP HOTLINES -->
             <div class="wa-hotlines-box">
                 <div class="wa-hotlines-header">
-                    <h3><i class="bi bi-headset" style="color: var(--accent-mint); margin-right: 8px;"></i> 4 Nomor Kontak WhatsApp Layanan Konsultasi</h3>
+                    <h3><i class="bi bi-headset" style="color: var(--accent-sky); margin-right: 8px;"></i> 4 Nomor Kontak WhatsApp Layanan Konsultasi</h3>
                     <p>Hubungi petugas spesialis kami mengenai jadwal pelatihan terdekat atau sertifikasi resmi:</p>
                 </div>
 
@@ -114,7 +114,7 @@
                             Pusat Eksplorasi 200 Artikel Training K3 Kimia Se-Indonesia
                         </h2>
                     </div>
-                    <span style="font-size: 0.8rem; font-weight: 700; color: #059669; background: #ecfdf5; padding: 6px 14px; border-radius: 20px; border: 1px solid #a7f3d0;">
+                    <span style="font-size: 0.8rem; font-weight: 700; color: #0369a1; background: #f0f9ff; padding: 6px 14px; border-radius: 20px; border: 1px solid #bae6fd;">
                         <i class="bi bi-speedometer2"></i> Akses Instan Tanpa Lag
                     </span>
                 </div>
@@ -143,14 +143,14 @@
 
                     <div>
                         <label style="font-size: 0.82rem; font-weight: 700; color: #334155; margin-bottom: 6px; display: block;">Cari Topik Artikel:</label>
-                        <input type="text" id="articleLiveSearch" class="form-control" placeholder="Ketik kata kunci (Gas, Full Body Harness & Lanyard, Permit)..." style="padding: 10px 14px; border-radius: 8px; border: 1px solid #cbd5e1; font-size: 0.88rem; width: 100%;">
+                        <input type="text" id="articleLiveSearch" class="form-control" placeholder="Ketik kata kunci (Gas, Spill Kit & Chemical Handling, Permit)..." style="padding: 10px 14px; border-radius: 8px; border: 1px solid #cbd5e1; font-size: 0.88rem; width: 100%;">
                     </div>
                 </div>
 
                 <!-- Info bar -->
                 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; font-size: 0.82rem; color: #64748b;">
                     <div id="hubInfoText">Memuat 200 topik artikel...</div>
-                    <div id="hubPageBadge" style="font-weight: 700; color: #059669;">Halaman 1</div>
+                    <div id="hubPageBadge" style="font-weight: 700; color: #0369a1;">Halaman 1</div>
                 </div>
 
                 <!-- DYNAMIC CARDS VIA JS -->
@@ -178,7 +178,7 @@
                     @foreach($provinces as $prov)
                         <a href="{{ route('wilayah.provinsi', $prov['slug']) }}" class="province-chip">
                             <span>{{ $prov['name'] }}</span>
-                            <i class="bi bi-chevron-right" style="color: #10b981;"></i>
+                            <i class="bi bi-chevron-right" style="color: #0284c7;"></i>
                         </a>
                     @endforeach
                 </div>
@@ -277,16 +277,16 @@
             html += `
                 <div class="article-topic-item" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 18px 20px; transition: all 0.2s ease;">
                     <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; flex-wrap: wrap; gap: 8px;">
-                        <span style="font-size: 0.72rem; font-weight: 800; background: #ecfdf5; color: #059669; padding: 3px 10px; border-radius: 4px; border: 1px solid #a7f3d0;">
+                        <span style="font-size: 0.72rem; font-weight: 800; background: #f0f9ff; color: #0369a1; padding: 3px 10px; border-radius: 4px; border: 1px solid #bae6fd;">
                             MODUL ${item.index} DARI 200
                         </span>
-                        <span style="font-size: 0.74rem; font-weight: 700; color: #059669; background: #f0fdf4; padding: 2px 8px; border-radius: 4px;">
+                        <span style="font-size: 0.74rem; font-weight: 700; color: #0369a1; background: #f0fdf4; padding: 2px 8px; border-radius: 4px;">
                             <i class="bi bi-journal-check"></i> Silabus Resmi BNSP & LSP Kimia Industri
                         </span>
                     </div>
 
                     <h4 style="font-size: 1.02rem; font-weight: 800; color: #0f172a; margin-bottom: 8px; line-height: 1.4;">
-                        <a href="${linkUrl}" style="color: inherit; text-decoration: none;" onmouseover="this.style.color='#10b981'" onmouseout="this.style.color='#0f172a'">
+                        <a href="${linkUrl}" style="color: inherit; text-decoration: none;" onmouseover="this.style.color='#0284c7'" onmouseout="this.style.color='#0f172a'">
                             ${fullTitle}
                         </a>
                     </h4>
@@ -299,7 +299,7 @@
                         <span style="font-size: 0.76rem; color: #94a3b8;">
                             <i class="bi bi-geo-alt"></i> ${currentRegionName}
                         </span>
-                        <a href="${linkUrl}" style="font-size: 0.82rem; font-weight: 700; color: #10b981; display: inline-flex; align-items: center; gap: 4px; text-decoration: none;">
+                        <a href="${linkUrl}" style="font-size: 0.82rem; font-weight: 700; color: #0284c7; display: inline-flex; align-items: center; gap: 4px; text-decoration: none;">
                             Baca Modul Lengkap <i class="bi bi-chevron-right"></i>
                         </a>
                     </div>
@@ -349,7 +349,7 @@
             }
             const isActive = num === currentPage;
             const activeStyle = isActive 
-                ? 'background: #10b981; color: #ffffff; border-color: #10b981; font-weight: 800;' 
+                ? 'background: #0284c7; color: #ffffff; border-color: #0284c7; font-weight: 800;' 
                 : 'background: #ffffff; color: #334155; border-color: #cbd5e1; font-weight: 600;';
             navHtml += `
                 <button type="button" class="btn-hub-ctrl" data-page="${num}" style="padding: 7px 13px; border-radius: 6px; border: 1px solid; ${activeStyle} font-size: 0.82rem; cursor: pointer;">

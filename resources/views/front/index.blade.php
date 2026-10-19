@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('title', 'Training K3 Kimia Industri (LSP Kimia Industri BNSP) Indonesia | LSP Kimia Industri & BNSP')
-@section('meta_description', 'Lembaga pelatihan resmi dan sertifikasi kompetensi K3 Kimia Industri & Laboratorium (TKBT (Ketinggian)) Muda, Madya, Utama, dan Penyelamat (Rescue). Hubungi WhatsApp 081399810272.')
+@section('meta_description', 'Lembaga pelatihan resmi dan sertifikasi kompetensi K3 Kimia Industri & Laboratorium (K3 Kimia Industri BNSP) Muda, Madya, Utama, dan Penyelamat (Rescue). Hubungi WhatsApp 081399810272.')
 
 @section('content')
 
@@ -10,25 +10,25 @@
         <div class="container">
             <div class="hero-badge">
                 <i class="bi bi-shield-check"></i>
-                Standar Resmi BNSP & LSP Kimia Industri & Standar Internasional OSHA 1910.146
+                Sertifikasi Resmi BNSP & LSP Kimia Industri Berbasis SKKNI
             </div>
             
             <h1 class="hero-title">
-                Pusat Pelatihan & Sertifikasi <span>K3 TKBT (Ketinggian)</span> (Bangunan Tinggi / Ketinggian)
+                Pusat Pelatihan & Sertifikasi <span>K3 Kimia Industri</span> & Laboratorium BNSP
             </h1>
 
             <p class="hero-lead">
-                Kuasai protokol keselamatan mutlak di ruang tertutup: verifikasi izin masuk (entry permit), pengoperasian Alat Pelindung Jatuh (PFAS) 4 gas, pemakaian unit Full Body Harness & Lanyard 300 Bar, ventilasi paksa, isolasi LOTO, serta simulasi evakuasi darurat non-entry rescue di seluruh wilayah Indonesia.
+                Tingkatkan kompetensi kerja bersertifikat Garuda Emas BNSP untuk 32 skema profesi: Analisis Mutu AMDK, Petugas Sampling Air & Emisi, Operasional IPAL (POPAL/PPCA), Pengendalian Emisi Udara (POPU/PPPU), Pengelolaan Limbah B3, Ahli K3 Kimia, Instrumen HPLC/GC, hingga Tanggap Darurat Kimia.
             </p>
 
             <div class="hero-cta">
-                <a href="{{ $waLink ?? 'https://api.whatsapp.com/send?phone=6281399810272' }}" target="_blank" class="btn-primary-green">
+                <a href="{{ $waLink ?? 'https://api.whatsapp.com/send?phone=6281399810272' }}" target="_blank" class="btn-primary-blue">
                     <i class="bi bi-whatsapp"></i>
                     Konsultasi Pendaftaran: 081399810272
                 </a>
                 <a href="#program" class="btn-outline-white">
                     <i class="bi bi-grid-fill"></i>
-                    Lihat 2 Program Resmi
+                    Lihat 32 Skema Resmi
                 </a>
             </div>
 
@@ -52,7 +52,7 @@
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">100% Hands-On</div>
-                        <div class="stat-label">Praktikum Gas Detector & Full Body Harness & Lanyard</div>
+                        <div class="stat-label">Praktikum Gas Detector & Spill Kit & Chemical Handling</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">24/7 Hotline</div>
@@ -96,8 +96,8 @@
                             </p>
 
                             <div class="program-meta">
-                                <div><i class="bi bi-clock-history" style="color: #10b981;"></i> {{ $progObj->duration ?? '3 Hari' }}</div>
-                                <div><i class="bi bi-award" style="color: #10b981;"></i> {{ $progObj->certification_body ?? 'LSP Kimia Industri & BNSP' }}</div>
+                                <div><i class="bi bi-clock-history" style="color: #0284c7;"></i> {{ $progObj->duration ?? '3 Hari' }}</div>
+                                <div><i class="bi bi-award" style="color: #0284c7;"></i> {{ $progObj->certification_body ?? 'LSP Kimia Industri & BNSP' }}</div>
                             </div>
 
                             <div class="program-footer-btn">
@@ -116,7 +116,7 @@
             <!-- 4 WHATSAPP HOTLINES COMPONENT -->
             <div class="wa-hotlines-box">
                 <div class="wa-hotlines-header">
-                    <h3><i class="bi bi-telephone-inbound-fill" style="color: var(--accent-mint); margin-right: 8px;"></i> 4 Nomor Hotline Resmi Layanan Konsultasi & Pendaftaran</h3>
+                    <h3><i class="bi bi-telephone-inbound-fill" style="color: var(--accent-sky); margin-right: 8px;"></i> 4 Nomor Hotline Resmi Layanan Konsultasi & Pendaftaran</h3>
                     <p>Hubungi petugas spesialis kami sesuai dengan kebutuhan informasi jadwal, modul teknis, atau pelatihan korporasi:</p>
                 </div>
 
@@ -154,7 +154,7 @@
 
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px;">
                 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 26px; box-shadow: 0 2px 6px rgba(0,0,0,0.03);">
-                    <div style="width: 48px; height: 48px; background: #ecfdf5; color: #059669; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; margin-bottom: 16px;">
+                    <div style="width: 48px; height: 48px; background: #f0f9ff; color: #0369a1; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; margin-bottom: 16px;">
                         <i class="bi bi-diagram-3-fill"></i>
                     </div>
                     <h3 style="font-size: 1.1rem; font-weight: 800; color: #0f172a; margin-bottom: 8px;">Instrumentasi HPLC & GC-MS</h3>
@@ -164,7 +164,7 @@
                 </div>
 
                 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 26px; box-shadow: 0 2px 6px rgba(0,0,0,0.03);">
-                    <div style="width: 48px; height: 48px; background: #ecfdf5; color: #059669; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; margin-bottom: 16px;">
+                    <div style="width: 48px; height: 48px; background: #f0f9ff; color: #0369a1; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; margin-bottom: 16px;">
                         <i class="bi bi-droplet-half"></i>
                     </div>
                     <h3 style="font-size: 1.1rem; font-weight: 800; color: #0f172a; margin-bottom: 8px;">Rekayasa IPAL & Pengendalian B3</h3>
@@ -174,7 +174,7 @@
                 </div>
 
                 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 26px; box-shadow: 0 2px 6px rgba(0,0,0,0.03);">
-                    <div style="width: 48px; height: 48px; background: #ecfdf5; color: #059669; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; margin-bottom: 16px;">
+                    <div style="width: 48px; height: 48px; background: #f0f9ff; color: #0369a1; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; margin-bottom: 16px;">
                         <i class="bi bi-shield-fill-exclamation"></i>
                     </div>
                     <h3 style="font-size: 1.1rem; font-weight: 800; color: #0f172a; margin-bottom: 8px;">Chemical Safety & Spill Response</h3>
@@ -184,7 +184,7 @@
                 </div>
 
                 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 26px; box-shadow: 0 2px 6px rgba(0,0,0,0.03);">
-                    <div style="width: 48px; height: 48px; background: #ecfdf5; color: #059669; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; margin-bottom: 16px;">
+                    <div style="width: 48px; height: 48px; background: #f0f9ff; color: #0369a1; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; margin-bottom: 16px;">
                         <i class="bi bi-award-fill"></i>
                     </div>
                     <h3 style="font-size: 1.1rem; font-weight: 800; color: #0f172a; margin-bottom: 8px;">Sertifikat BNSP Garuda Emas</h3>
@@ -208,7 +208,7 @@
                     </p>
                 </div>
 
-                <a href="{{ route('articles') }}" class="btn-primary-green" style="padding: 10px 20px; font-size: 0.88rem;">
+                <a href="{{ route('articles') }}" class="btn-primary-blue" style="padding: 10px 20px; font-size: 0.88rem;">
                     Lihat Semua 200 Artikel <i class="bi bi-arrow-right"></i>
                 </a>
             </div>
@@ -237,10 +237,10 @@
                         </div>
 
                         <div style="margin-top: 16px; padding-top: 12px; border-top: 1px dashed #e2e8f0; display: flex; align-items: center; justify-content: space-between;">
-                            <span style="font-size: 0.74rem; font-weight: 700; color: #059669;">
+                            <span style="font-size: 0.74rem; font-weight: 700; color: #0369a1;">
                                 <i class="bi bi-patch-check"></i> Silabus Resmi BNSP & LSP Kimia Industri
                             </span>
-                            <a href="{{ route('article.detail', $art->slug) }}" style="font-size: 0.82rem; font-weight: 700; color: #10b981; display: flex; align-items: center; gap: 4px;">
+                            <a href="{{ route('article.detail', $art->slug) }}" style="font-size: 0.82rem; font-weight: 700; color: #0284c7; display: flex; align-items: center; gap: 4px;">
                                 Baca Panduan <i class="bi bi-chevron-right"></i>
                             </a>
                         </div>
@@ -259,7 +259,7 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">Jangkauan Nasional</span>
-                <h2 class="section-title">Direktori Pelatihan K3 TKBT (Ketinggian) 38 Wilayah</h2>
+                <h2 class="section-title">Direktori Pelatihan K3 Kimia Industri 38 Wilayah</h2>
                 <p class="section-desc">
                     Pilih provinsi untuk melihat jadwal pelatihan, daftar kabupaten/kota, serta 200 artikel silabus pembinaan di setiap wilayah.
                 </p>
@@ -269,7 +269,7 @@
                 @foreach($provinces as $prov)
                     <a href="{{ route('wilayah.provinsi', $prov['slug']) }}" class="province-chip">
                         <span>{{ $prov['name'] }}</span>
-                        <i class="bi bi-arrow-right-short" style="font-size: 1.2rem; color: #10b981;"></i>
+                        <i class="bi bi-arrow-right-short" style="font-size: 1.2rem; color: #0284c7;"></i>
                     </a>
                 @endforeach
             </div>
@@ -314,7 +314,7 @@
                 <span class="section-tag">Kredibilitas & Pengalaman</span>
                 <h2 class="section-title">Apa Kata Alumni & Mitra Perusahaan</h2>
                 <p class="section-desc">
-                    Pengalaman nyata praktisi keselamatan yang telah menyelesaikan pembinaan K3 TKBT (Ketinggian) di lembaga kami.
+                    Pengalaman nyata praktisi keselamatan dan analis laboratorium yang telah menyelesaikan sertifikasi K3 Kimia Industri BNSP di lembaga kami.
                 </p>
             </div>
 
@@ -330,7 +330,7 @@
                             "{{ $testi->message }}"
                         </p>
                         <div style="display: flex; align-items: center; gap: 12px; border-top: 1px solid #f1f5f9; padding-top: 14px;">
-                            <div style="width: 40px; height: 40px; background: #ecfdf5; border-radius: 50%; color: #059669; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.1rem;">
+                            <div style="width: 40px; height: 40px; background: #f0f9ff; border-radius: 50%; color: #0369a1; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.1rem;">
                                 {{ substr($testi->name, 0, 1) }}
                             </div>
                             <div>

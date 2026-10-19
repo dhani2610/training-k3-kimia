@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
-@section('title', 'Program Pelatihan & Sertifikasi K3 TKBT (Ketinggian) (Bangunan Tinggi / Ketinggian)')
-@section('meta_description', 'Daftar 4 program resmi pembinaan K3 Kimia Industri & Laboratorium: Tingkat Muda, Tingkat Madya, Tingkat Utama, dan Penyelamat (Rescue) TKBT (Ketinggian) berstandar BNSP & LSP Kimia Industri.')
+@section('title', '32 Skema Program Pelatihan & Sertifikasi K3 Kimia Industri BNSP')
+@section('meta_description', 'Daftar lengkap 32 skema resmi pelatihan dan uji kompetensi profesi K3 Kimia Industri, Laboratorium Analitik, AMDK, IPAL, Emisi Udara, dan Limbah B3 berlisensi BNSP.')
 
 @section('content')
 
@@ -10,15 +10,15 @@
         <div class="container">
             <div class="hero-badge">
                 <i class="bi bi-mortarboard-fill"></i>
-                Skema Sertifikasi LSP Kimia Industri & BNSP
+                32 Skema Sertifikasi LSP Kimia Industri & BNSP
             </div>
 
             <h1 class="hero-title" style="font-size: 2.35rem;">
-                Empat (4) Program Resmi <span>K3 TKBT (Ketinggian)</span>
+                32 Skema Resmi <span>K3 Kimia Industri BNSP</span>
             </h1>
 
             <p class="hero-lead" style="max-width: 800px;">
-                Pilih jenjang pembinaan keselamatan ruang terbatas sesuai peran operasional Anda di lapangan. Seluruh program dilengkapi materi izin masuk (entry permit), pengujian Alat Pelindung Jatuh (PFAS), dan pemakaian unit Full Body Harness & Lanyard.
+                Pilihan lengkap 32 skema sertifikasi profesi berbasis SKKNI berlisensi BNSP & LSP Kimia Industri: Analisis Mutu AMDK, Petugas Sampling Lingkungan (Air & Udara), Operasional IPAL (POPAL/PPCA), Pengendalian Emisi (POPU/PPPU), Limbah B3, Ahli K3 Kimia, hingga Instrumen Laboratorium (HPLC/GC).
             </p>
         </div>
     </section>
@@ -48,8 +48,8 @@
                             </p>
 
                             <div class="program-meta">
-                                <div><i class="bi bi-clock-history" style="color: #10b981;"></i> {{ $progObj->duration ?? '3 - 4 Hari' }}</div>
-                                <div><i class="bi bi-award" style="color: #10b981;"></i> {{ $progObj->certification_body ?? 'LSP Kimia Industri & BNSP' }}</div>
+                                <div><i class="bi bi-clock-history" style="color: #0284c7;"></i> {{ $progObj->duration ?? '3 - 4 Hari' }}</div>
+                                <div><i class="bi bi-award" style="color: #0284c7;"></i> {{ $progObj->certification_body ?? 'LSP Kimia Industri & BNSP' }}</div>
                             </div>
 
                             <div class="program-footer-btn">
@@ -68,7 +68,7 @@
             <!-- 4 WHATSAPP HOTLINES -->
             <div class="wa-hotlines-box">
                 <div class="wa-hotlines-header">
-                    <h3><i class="bi bi-headset" style="color: var(--accent-mint); margin-right: 8px;"></i> 4 Hotline WhatsApp Layanan Konsultasi & Pendaftaran</h3>
+                    <h3><i class="bi bi-headset" style="color: var(--accent-sky); margin-right: 8px;"></i> 4 Hotline WhatsApp Layanan Konsultasi & Pendaftaran</h3>
                     <p>Hubungi petugas spesialis kami untuk konfirmasi ketersediaan kuota, silabus rinci, atau in-house training perusahaan:</p>
                 </div>
 
@@ -97,7 +97,7 @@
                     <span class="section-tag">Direktori Wilayah</span>
                     <h2 class="section-title" style="font-size: 1.75rem;">Pilih Wilayah Pelatihan di 38 Provinsi</h2>
                     <p class="section-desc">
-                        Setiap wilayah memiliki jadwal pelatihan, direktori kabupaten/kota, dan 200 artikel panduan teknis K3 TKBT (Ketinggian).
+                        Setiap wilayah memiliki jadwal pelatihan, direktori kabupaten/kota, dan 200 artikel panduan teknis K3 Kimia Industri BNSP.
                     </p>
                 </div>
 
@@ -105,7 +105,7 @@
                     @foreach($provinces as $prov)
                         <a href="{{ route('wilayah.provinsi', $prov['slug']) }}" class="province-chip">
                             <span>{{ $prov['name'] }}</span>
-                            <i class="bi bi-arrow-right-short" style="font-size: 1.2rem; color: #10b981;"></i>
+                            <i class="bi bi-arrow-right-short" style="font-size: 1.2rem; color: #0284c7;"></i>
                         </a>
                     @endforeach
                 </div>

@@ -18,10 +18,10 @@
         }
 
         body {
-            background-color: #06241b;
+            background-color: #081a30;
             background-image: 
-                radial-gradient(circle at 80% 20%, rgba(16, 185, 129, 0.15) 0%, transparent 40%),
-                radial-gradient(circle at 20% 80%, rgba(5, 150, 105, 0.12) 0%, transparent 40%);
+                radial-gradient(circle at 80% 20%, rgba(2, 132, 199, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 20% 80%, rgba(3, 105, 161, 0.12) 0%, transparent 40%);
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -46,7 +46,7 @@
         .brand-icon {
             width: 52px;
             height: 52px;
-            background: #10b981;
+            background: #0284c7;
             color: #ffffff;
             border-radius: 12px;
             display: flex;
@@ -54,7 +54,7 @@
             justify-content: center;
             font-size: 1.6rem;
             margin: 0 auto 14px;
-            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35);
+            box-shadow: 0 4px 12px rgba(2, 132, 199, 0.35);
         }
 
         .brand-header h1 {
@@ -105,13 +105,13 @@
         }
 
         .form-control:focus {
-            border-color: #10b981;
-            box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15);
+            border-color: #0284c7;
+            box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
         }
 
         .btn-login {
             width: 100%;
-            background: #064e3b;
+            background: #0c4a6e;
             color: #ffffff;
             border: none;
             padding: 12px;
@@ -124,13 +124,13 @@
         }
 
         .btn-login:hover {
-            background: #047857;
+            background: #075985;
             transform: translateY(-1px);
         }
 
         .demo-box {
-            background: #ecfdf5;
-            border: 1px dashed #a7f3d0;
+            background: #f0f9ff;
+            border: 1px dashed #bae6fd;
             border-radius: 8px;
             padding: 12px 14px;
             margin-top: 24px;
@@ -145,7 +145,7 @@
         .btn-fill-demo {
             display: inline-block;
             margin-top: 6px;
-            background: #10b981;
+            background: #0284c7;
             color: #ffffff;
             border: none;
             padding: 5px 12px;

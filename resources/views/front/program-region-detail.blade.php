@@ -9,15 +9,15 @@
     <section class="hero-section" style="padding: 48px 0 44px; text-align: left;">
         <div class="container">
             <!-- Breadcrumb -->
-            <div style="font-size: 0.82rem; color: #a7f3d0; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+            <div style="font-size: 0.82rem; color: #bae6fd; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
                 <a href="{{ route('home') }}" style="color: #cbd5e1;"><i class="bi bi-house-door"></i> Beranda</a>
                 <span>/</span>
                 <a href="{{ route('wilayah.provinsi', $province['slug']) }}" style="color: #cbd5e1;">Provinsi {{ $province['name'] }}</a>
-                @if(isset($kabkotSlug) && isset($kabkotName))
+                @if(!empty($kabkotSlug) && !empty($kabkotName))
                     <span>/</span>
                     <a href="{{ route('wilayah.kabkot', [$province['slug'], $kabkotSlug]) }}" style="color: #cbd5e1;">{{ $kabkotName }}</a>
                 @endif
-                @if(isset($kecamatanName))
+                @if(!empty($kecamatanName))
                     <span>/</span>
                     <span style="color: #cbd5e1;">Kecamatan {{ $kecamatanName }}</span>
                 @endif
@@ -29,7 +29,7 @@
                 <span class="hero-badge" style="margin-bottom: 0;">
                     <i class="bi bi-award-fill"></i> {{ $program['level_name'] ?? 'K3 Kimia Industri & Laboratorium' }}
                 </span>
-                <span class="hero-badge" style="margin-bottom: 0; background: rgba(52, 211, 153, 0.2); border-color: #34d399; color: #a7f3d0;">
+                <span class="hero-badge" style="margin-bottom: 0; background: rgba(52, 211, 153, 0.2); border-color: #38bdf8; color: #bae6fd;">
                     <i class="bi bi-geo-alt-fill"></i> {{ $regionName }}
                 </span>
                 <span class="hero-badge" style="margin-bottom: 0; background: rgba(245, 158, 11, 0.2); border-color: #f59e0b; color: #fde68a;">
@@ -42,11 +42,11 @@
             </h1>
 
             <p class="hero-lead" style="margin-left: 0; max-width: 900px; margin-bottom: 22px;">
-                Penyelenggaraan pelatihan, bimbingan teknis, dan sertifikasi resmi K3 TKBT (Ketinggian) untuk tenaga kerja profesional di wilayah {{ $regionName }}. Dilengkapi 200 materi artikel kurikulum lengkap dan terstruktur.
+                Penyelenggaraan pelatihan, bimbingan teknis, dan sertifikasi resmi K3 Kimia Industri BNSP untuk tenaga kerja profesional di wilayah {{ $regionName }}. Dilengkapi 200 materi artikel kurikulum lengkap dan terstruktur.
             </p>
 
             <div class="hero-cta" style="justify-content: flex-start; margin-bottom: 0;">
-                <a href="{{ $waLink }}" target="_blank" class="btn-primary-green">
+                <a href="{{ $waLink }}" target="_blank" class="btn-primary-blue">
                     <i class="bi bi-whatsapp"></i>
                     Konsultasi WA: 081399810272
                 </a>
@@ -68,7 +68,7 @@
                     <!-- Detail Program Info -->
                     <div class="article-content-card" style="margin-bottom: 30px;">
                         <h2 style="font-size: 1.35rem; font-weight: 800; color: #0f172a; margin-bottom: 14px; display: flex; align-items: center; gap: 10px;">
-                            <i class="bi bi-shield-check" style="color: #10b981;"></i> Kurikulum & Spesifikasi Pelatihan di {{ $regionName }}
+                            <i class="bi bi-shield-check" style="color: #0284c7;"></i> Kurikulum & Spesifikasi Pelatihan di {{ $regionName }}
                         </h2>
 
                         <p style="font-size: 0.92rem; color: #475569; line-height: 1.8; margin-bottom: 24px;">
@@ -82,7 +82,7 @@
                         <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px;">
                             @foreach($program['curriculum'] ?? [] as $idx => $modul)
                                 <div style="display: flex; align-items: flex-start; gap: 12px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px 16px;">
-                                    <span style="width: 24px; height: 24px; background: #064e3b; color: #a7f3d0; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.72rem; font-weight: 800; flex-shrink: 0;">
+                                    <span style="width: 24px; height: 24px; background: #0c4a6e; color: #bae6fd; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.72rem; font-weight: 800; flex-shrink: 0;">
                                         {{ $idx + 1 }}
                                     </span>
                                     <span style="font-size: 0.88rem; font-weight: 600; color: #1e293b;">
@@ -96,7 +96,7 @@
                     <!-- 4 WHATSAPP HOTLINES CARD (USER REQUIREMENT) -->
                     <div class="wa-hotlines-box" style="margin: 0 0 36px 0;">
                         <div class="wa-hotlines-header">
-                            <h3><i class="bi bi-telephone-inbound-fill" style="color: var(--accent-mint); margin-right: 8px;"></i> 4 Nomor Kontak WhatsApp Resmi di {{ $regionName }}</h3>
+                            <h3><i class="bi bi-telephone-inbound-fill" style="color: var(--accent-sky); margin-right: 8px;"></i> 4 Nomor Kontak WhatsApp Resmi di {{ $regionName }}</h3>
                             <p>Hubungi kontak resmi kami untuk informasi pendaftaran, jadwal batch, dan silabus:</p>
                         </div>
 
@@ -128,7 +128,7 @@
                                     Direktori 200 Artikel {{ $program['title'] }} di {{ $regionName }}
                                 </h2>
                             </div>
-                            <span style="font-size: 0.8rem; font-weight: 700; color: #059669; background: #ecfdf5; padding: 6px 14px; border-radius: 20px; border: 1px solid #a7f3d0;">
+                            <span style="font-size: 0.8rem; font-weight: 700; color: #0369a1; background: #f0f9ff; padding: 6px 14px; border-radius: 20px; border: 1px solid #bae6fd;">
                                 <i class="bi bi-shield-check"></i> Sertifikasi LSP Kimia Industri & BNSP
                             </span>
                         </div>
@@ -158,7 +158,7 @@
                         <div style="display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap;">
                             <div style="flex: 1; min-width: 240px; position: relative;">
                                 <i class="bi bi-search" style="position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: #94a3b8;"></i>
-                                <input type="text" id="articleSearchInput" class="form-control" placeholder="Cari topik modul (misal: Gas Detector, Full Body Harness & Lanyard, LOTO, Rescue, Permit)..." style="padding: 11px 16px 11px 38px; border-radius: 8px; border: 1px solid #cbd5e1; font-size: 0.9rem; width: 100%;">
+                                <input type="text" id="articleSearchInput" class="form-control" placeholder="Cari topik modul (misal: Gas Detector, Spill Kit & Chemical Handling, LOTO, Rescue, Permit)..." style="padding: 11px 16px 11px 38px; border-radius: 8px; border: 1px solid #cbd5e1; font-size: 0.9rem; width: 100%;">
                             </div>
                             <div style="display: flex; align-items: center; gap: 8px;">
                                 <label style="font-size: 0.82rem; font-weight: 700; color: #475569; white-space: nowrap;">Tampilkan:</label>
@@ -173,7 +173,7 @@
                         <!-- Info Count -->
                         <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; font-size: 0.82rem; color: #64748b;">
                             <div id="pagingInfoText">Memuat 200 modul artikel...</div>
-                            <div id="activePageBadge" style="font-weight: 700; color: #059669;">Halaman 1</div>
+                            <div id="activePageBadge" style="font-weight: 700; color: #0369a1;">Halaman 1</div>
                         </div>
 
                         <!-- DYNAMIC FAST JS CONTAINER (0 LAG) -->
@@ -200,14 +200,14 @@
                             Jadwal pelaksanaan terdekat dan konfirmasi ketersediaan kuota kelas di {{ $regionName }} dapat dikonfirmasikan langsung melalui WhatsApp:
                         </p>
 
-                        <a href="{{ $waLink }}" target="_blank" class="btn-primary-green" style="width: 100%; justify-content: center; margin-bottom: 12px;">
+                        <a href="{{ $waLink }}" target="_blank" class="btn-primary-blue" style="width: 100%; justify-content: center; margin-bottom: 12px;">
                             <i class="bi bi-whatsapp"></i> Chat WhatsApp: 081399810272
                         </a>
 
                         <div style="font-size: 0.78rem; color: #64748b; display: flex; flex-direction: column; gap: 8px; margin-top: 16px; border-top: 1px solid #f1f5f9; padding-top: 14px;">
-                            <div><i class="bi bi-check-circle-fill" style="color: #10b981;"></i> Layanan Tersedia untuk Perorangan & Perusahaan</div>
-                            <div><i class="bi bi-check-circle-fill" style="color: #10b981;"></i> Fasilitas Sertifikat BNSP & LSP Kimia Industri & Lisensi K3</div>
-                            <div><i class="bi bi-check-circle-fill" style="color: #10b981;"></i> Modul Silabus & Konsumsi Lengkap</div>
+                            <div><i class="bi bi-check-circle-fill" style="color: #0284c7;"></i> Layanan Tersedia untuk Perorangan & Perusahaan</div>
+                            <div><i class="bi bi-check-circle-fill" style="color: #0284c7;"></i> Fasilitas Sertifikat BNSP & LSP Kimia Industri & Lisensi K3</div>
+                            <div><i class="bi bi-check-circle-fill" style="color: #0284c7;"></i> Modul Silabus & Konsumsi Lengkap</div>
                         </div>
 
                         <!-- Sub-wilayah / Kecamatan Directory -->
@@ -286,7 +286,7 @@
                 <div style="text-align: center; padding: 48px 20px; background: #f8fafc; border-radius: 12px; border: 1px dashed #cbd5e1;">
                     <i class="bi bi-search" style="font-size: 2.2rem; color: #94a3b8; display: block; margin-bottom: 10px;"></i>
                     <h4 style="font-size: 1rem; font-weight: 700; color: #334155;">Tidak ada modul yang cocok dengan kata kunci</h4>
-                    <p style="font-size: 0.84rem; color: #64748b; margin-top: 4px;">Coba gunakan kata kunci lain seperti: Gas Detector, Full Body Harness & Lanyard, LOTO, Izin Masuk, atau Penyelamat.</p>
+                    <p style="font-size: 0.84rem; color: #64748b; margin-top: 4px;">Coba gunakan kata kunci lain seperti: Gas Detector, Spill Kit & Chemical Handling, LOTO, Izin Masuk, atau Penyelamat.</p>
                 </div>
             `;
             paginationNav.innerHTML = '';
@@ -302,16 +302,16 @@
             html += `
                 <div class="article-topic-item" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 18px 20px; transition: all 0.2s ease; box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
                     <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; flex-wrap: wrap; gap: 8px;">
-                        <span style="font-size: 0.72rem; font-weight: 800; background: #ecfdf5; color: #059669; padding: 3px 10px; border-radius: 4px; border: 1px solid #a7f3d0;">
+                        <span style="font-size: 0.72rem; font-weight: 800; background: #f0f9ff; color: #0369a1; padding: 3px 10px; border-radius: 4px; border: 1px solid #bae6fd;">
                             MODUL ${item.index} DARI 200
                         </span>
-                        <span style="font-size: 0.74rem; font-weight: 700; color: #059669; background: #f0fdf4; padding: 2px 8px; border-radius: 4px;">
+                        <span style="font-size: 0.74rem; font-weight: 700; color: #0369a1; background: #f0fdf4; padding: 2px 8px; border-radius: 4px;">
                             <i class="bi bi-journal-check"></i> Silabus Resmi BNSP & LSP Kimia Industri
                         </span>
                     </div>
 
                     <h4 style="font-size: 1.02rem; font-weight: 800; color: #0f172a; margin-bottom: 8px; line-height: 1.4;">
-                        <a href="${item.url}" style="color: inherit; text-decoration: none;" class="article-link-title" onmouseover="this.style.color='#10b981'" onmouseout="this.style.color='#0f172a'">
+                        <a href="${item.url}" style="color: inherit; text-decoration: none;" class="article-link-title" onmouseover="this.style.color='#0284c7'" onmouseout="this.style.color='#0f172a'">
                             ${item.title}
                         </a>
                     </h4>
@@ -324,7 +324,7 @@
                         <span style="font-size: 0.76rem; color: #94a3b8;">
                             <i class="bi bi-geo-alt"></i> ${item.region}
                         </span>
-                        <a href="${item.url}" style="font-size: 0.82rem; font-weight: 700; color: #10b981; display: inline-flex; align-items: center; gap: 4px; text-decoration: none;">
+                        <a href="${item.url}" style="font-size: 0.82rem; font-weight: 700; color: #0284c7; display: inline-flex; align-items: center; gap: 4px; text-decoration: none;">
                             Baca Modul Lengkap <i class="bi bi-chevron-right"></i>
                         </a>
                     </div>
@@ -381,7 +381,7 @@
             }
             const isActive = num === currentPage;
             const activeStyle = isActive 
-                ? 'background: #10b981; color: #ffffff; border-color: #10b981; font-weight: 800;' 
+                ? 'background: #0284c7; color: #ffffff; border-color: #0284c7; font-weight: 800;' 
                 : 'background: #ffffff; color: #334155; border-color: #cbd5e1; font-weight: 600;';
             navHtml += `
                 <button type="button" class="btn-page-ctrl" data-page="${num}" style="padding: 7px 13px; border-radius: 6px; border: 1px solid; ${activeStyle} font-size: 0.82rem; cursor: pointer;">
